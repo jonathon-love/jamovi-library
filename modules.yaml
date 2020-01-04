@@ -37,6 +37,9 @@ modules:
     - name: flexplot
       url: https://github.com/dustinfife/flexplot.git
       commit: f4f263bc8295f4fc7c2e5b9d21c462bb170f8a82
+    - name: moretests
+      url: https://github.com/jonathon-love/moretests.git
+      commit: cdaffc03b77dfd2c8f3ca3bcc344b9b98de3395d
     - name: distrACTION
       url: https://github.com/Mrihs/distrACTION.git
       commit: d1b39aad3ae05ee58985d542e29340aee9730983
