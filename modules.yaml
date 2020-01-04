@@ -72,3 +72,6 @@ modules:
     - name: jmvarcade
       url: https://github.com/raviselker/jmvarcade.git
       commit: a57dcd072359e247c75ddfd14195572e4b6d1a4b
+    - name: rosetta
+      url: https://gitlab.com/r-packages/rosetta.git
+      commit: 86d983510d408e4c823a6a72f9dab7d0e637d5bf
