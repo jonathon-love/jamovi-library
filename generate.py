@@ -11,10 +11,19 @@ from os.path import basename
 import os
 import sys
 import asyncio
+import platform
 from asyncio import create_subprocess_shell
 
+R_VERSION = '3.6.1'
 
-platform = 'win64/R3.6.1'
+if os.name == 'nt':
+    OS = 'win64'
+elif platform.system() == 'Darwin':
+    OS = 'macos'
+else:
+    OS = 'linux'
+
+platform = '{}/R{}'.format(OS, R_VERSION)
 
 
 async def generate_modules():
@@ -30,13 +39,13 @@ async def generate_modules():
     ]
 
     BUILD_COMMANDS = [
-        'node jamovi-compiler/index.js --build {name}/{subdir} --home jamovi-1.1.9.0-R3.6-win64 --jmo {name}.jmo',
-        'appveyor PushArtifact {name}.jmo -FileName {outdir}/{name}-{version}.jmo -DeploymentName Modules',
+        'node jamovi-compiler/index.js --build "{name}/{subdir}" --home "{jamovi_home}" --jmo {name}.jmo',
+        'appveyor PushArtifact {name}.jmo -FileName "{outdir}/{name}-{version}.jmo" -DeploymentName Modules',
     ]
 
     ZIP_COMMANDS = [
-        '7z a -tzip -r {name}.jmo {name} -xr!.git',
-        'appveyor PushArtifact {name}.jmo -FileName {outdir}/{name}-{version}.jmo -DeploymentName Modules',
+        ('7z a -tzip -r {name}.jmo {name} -xr!.git' if os.name == 'nt' else 'zip -r {name}.jmo {name} -x "*/.git*"'),
+        'appveyor PushArtifact {name}.jmo -FileName "{outdir}/{name}-{version}.jmo" -DeploymentName Modules',
     ]
 
     with open('modules.yaml', 'r') as stream:
@@ -69,6 +78,8 @@ async def generate_modules():
             module['version'] = defn['version']
             if 'subdir' not in module:
                 module['subdir'] = ''
+
+            module['jamovi_home'] = os.environ['JAMOVI_HOME']
 
         else:
             commands = ZIP_COMMANDS
@@ -113,7 +124,10 @@ async def generate_index():
             version = data['version']
             final = OrderedDict()
             for key in keep_info:
-                final[key] = data.get(key)
+                try:
+                    final[key] = data[key]
+                except KeyError:
+                    pass
             final['architectures'] = [ { 'name': '*', 'path': '{}-{}.jmo'.format(name, version) } ]
             modules.append(final)
 

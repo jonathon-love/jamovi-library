@@ -1,30 +1,47 @@
+image:
+  - macos
+  - Visual Studio 2017
 
+for:
+  - matrix:
+        only:
+          - image: Visual Studio 2017
+    environment:
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.1.9.0-R3.6-win64.zip
+        JAMOVI_HOME: jamovi-1.1.9.0-R3.6-win64
+        PYTHON: "C:\\Python38-x64\\python"
+    before_build:
+      - tzutil /s "GMT Standard Time"
+    install:
+      - "%PYTHON% -m pip install -r requirements.txt"
+      - curl -o jamovi.zip %JAMOVI_URL%
+      - ps: Expand-Archive -Path jamovi.zip -DestinationPath .
+      - git submodule update --init --recursive
+      - cd jamovi-compiler
+      - npm install
+      - cd %APPVEYOR_BUILD_FOLDER%
+    build_script:
+      - "%PYTHON% generate.py"
 
-environment:
-    RTOOLS_URL: https://cran.r-project.org/bin/windows/Rtools/Rtools35.exe
-    JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.1.9.0-R3.6-win64.zip
-    PYTHON: "C:\\Python38-x64"
-
-install:
-  - "%PYTHON%\\python -m pip install -r requirements.txt"
-  # # - ps: Invoke-WebRequest $env:RTOOLS_URL -OutFile Rtools-setup.exe
-  # # - ps: Start-Process -FilePath ./Rtools-setup.exe -ArgumentList /VERYSILENT -NoNewWindow -Wait
-  # - ps: Invoke-WebRequest $env:JAMOVI_URL -OutFile jamovi-setup.exe
-  # - ps: Start-Process -FilePath ./jamovi-setup.exe /S -Wait
-  - ps: Invoke-WebRequest $env:JAMOVI_URL -OutFile jamovi.zip
-  - ps: Expand-Archive -Path jamovi.zip -DestinationPath .
-  - git submodule update --init --recursive
-  - cd jamovi-compiler
-  - npm install
-  - cd %APPVEYOR_BUILD_FOLDER%
-  - tzutil /s "GMT Standard Time"
-
-build_script:
-  - "%PYTHON%\\python generate.py"
+  - matrix:
+        only:
+          - image: macos
+    environment:
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.1.0-macos.zip
+        JAMOVI_HOME: jamovi.app
+        PYTHON: "python3"
+    install:
+      - $PYTHON -m pip install -r requirements.txt
+      - curl -o jamovi.zip $JAMOVI_URL
+      - unzip jamovi.zip
+      - git submodule update --init --recursive
+      - cd jamovi-compiler
+      - npm install
+      - cd $APPVEYOR_BUILD_FOLDER
+    build_script:
+      - $PYTHON generate.py
 
 artifacts:
-  - path: '--ERROR--*.log'
-    name: Error Logs
   - path: '*.log'
     name: Build Logs
 
