@@ -36,7 +36,7 @@ modules:
       commit: 48f5876d0a447c3a9b37973c4f6889f4d1355c16
     - name: flexplot
       url: https://github.com/dustinfife/flexplot.git
-      commit: f4f263bc8295f4fc7c2e5b9d21c462bb170f8a82
+      commit: 14f4d2f605f104a72608be72ae64d645935431ec
     - name: moretests
       url: https://github.com/jonathon-love/moretests.git
       commit: cdaffc03b77dfd2c8f3ca3bcc344b9b98de3395d
