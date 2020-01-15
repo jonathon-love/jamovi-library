@@ -1,6 +1,10 @@
 image:
+  # - Ubuntu
   - macos
   - Visual Studio 2017
+
+matrix:
+  fast_finish: true
 
 for:
   - matrix:
@@ -40,6 +44,28 @@ for:
       - cd $APPVEYOR_BUILD_FOLDER
     build_script:
       - $PYTHON generate.py
+
+  - matrix:
+        only:
+          - image: Ubuntu
+    environment:
+        JAMOVI_HOME: flatpak
+        R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+    install:
+      - sudo add-apt-repository ppa:alexlarsson/flatpak
+      - sudo apt update
+      - sudo apt install -y flatpak python3.7 python3-pip
+      - flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+      - flatpak install    --user -y flathub org.jamovi.jamovi
+      - flatpak install    --user -y org.freedesktop.Sdk//1.6
+      - flatpak install    --user -y org.freedesktop.Sdk.Extension.gfortran-62
+      - python3.7 -m pip install -r requirements.txt
+      - git submodule update --init --recursive
+      - cd jamovi-compiler
+      - npm install
+      - cd $APPVEYOR_BUILD_FOLDER
+    build_script:
+      - python3.7 generate.py
 
 artifacts:
   - path: '*.log'
