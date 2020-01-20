@@ -52,6 +52,10 @@ async def generate_modules():
         library = load(stream, Loader=SafeLoader)
 
     for module in library['modules']:
+
+        if 'platforms' in module and OS not in module['platforms']:
+            continue
+
         dir = module['name']
         os.makedirs(dir, exist_ok=True)
 
@@ -115,6 +119,10 @@ async def generate_index():
     modules = [ ]
 
     for module in library['modules']:
+
+        if 'platforms' in module and OS not in module['platforms']:
+            continue
+
         name = module['name']
         jmo = '{}.jmo'.format(name)
         zip = ZipFile(jmo)

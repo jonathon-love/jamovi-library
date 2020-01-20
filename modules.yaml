@@ -19,6 +19,9 @@ modules:
     - name: jsq
       url: https://github.com/jonathon-love/jsq.git
       commit: 028d1aa696062749cf277e7cec9d29f96cfc8a30
+      platforms:
+        - win64
+        - macos
     - name: medmod
       url: https://github.com/raviselker/medmod.git
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
@@ -57,12 +60,21 @@ modules:
     - name: ufs
       url: https://gitlab.com/r-packages/ufs.git
       commit: caafe1072351af90577d8eb255c2cf52c8c07aeb
+      platforms:
+        - win64
+        - macos
     - name: behaviorchange
       url: https://gitlab.com/r-packages/behaviorchange.git
       commit: 0e6bbfc5c16df598b9e72182a2b73d4371532f10
+      platforms:
+        - win64
+        - macos
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
       commit: 11c9457c716620ccce51009bedfb0892e16dc90b
+      platforms:
+        - win64
+        - macos
     - name: blandr
       url: https://github.com/jonathon-love/blandr.git
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
@@ -75,3 +87,6 @@ modules:
     - name: rosetta
       url: https://gitlab.com/r-packages/rosetta.git
       commit: 86d983510d408e4c823a6a72f9dab7d0e637d5bf
+      platforms:
+        - win64
+        - macos

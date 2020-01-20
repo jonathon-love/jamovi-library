@@ -1,7 +1,7 @@
 image:
-  # - Ubuntu
-  - macos
   - Visual Studio 2017
+  - macos
+  - Ubuntu
 
 matrix:
   fast_finish: true
@@ -11,8 +11,8 @@ for:
         only:
           - image: Visual Studio 2017
     environment:
-        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.1.0-win64.zip
-        JAMOVI_HOME: jamovi-1.2.1.0-win64
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.2.0-win64.zip
+        JAMOVI_HOME: jamovi-1.2.2.0-win64
         PYTHON: "C:\\Python38-x64\\python"
     before_build:
       - tzutil /s "GMT Standard Time"
@@ -31,7 +31,7 @@ for:
         only:
           - image: macos
     environment:
-        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.1.0-macos.zip
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.3.0-macos.zip
         JAMOVI_HOME: jamovi.app
         PYTHON: "python3"
     install:
@@ -55,10 +55,8 @@ for:
       - sudo add-apt-repository ppa:alexlarsson/flatpak
       - sudo apt update
       - sudo apt install -y flatpak python3.7 python3-pip
-      - flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-      - flatpak install    --user -y flathub org.jamovi.jamovi
-      - flatpak install    --user -y org.freedesktop.Sdk//1.6
-      - flatpak install    --user -y org.freedesktop.Sdk.Extension.gfortran-62
+      - bash install-flatpak.sh
+      - export APPVEYOR_SAVE_CACHE_ON_ERROR=true
       - python3.7 -m pip install -r requirements.txt
       - git submodule update --init --recursive
       - cd jamovi-compiler
@@ -66,10 +64,8 @@ for:
       - cd $APPVEYOR_BUILD_FOLDER
     build_script:
       - python3.7 generate.py
-
-artifacts:
-  - path: '*.log'
-    name: Build Logs
+    cache:
+      - /home/appveyor/.local/share/flatpak/app/org.jamovi.jamovi -> install-flatpak.sh
 
 deploy:
     provider: S3
