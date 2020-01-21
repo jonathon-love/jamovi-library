@@ -13,6 +13,7 @@ for:
     environment:
         JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.2.0-win64.zip
         JAMOVI_HOME: jamovi-1.2.2.0-win64
+        R_VERSION: 3.6.1
         PYTHON: "C:\\Python38-x64\\python"
     before_build:
       - tzutil /s "GMT Standard Time"
@@ -33,6 +34,7 @@ for:
     environment:
         JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.3.0-macos.zip
         JAMOVI_HOME: jamovi.app
+        R_VERSION: 3.6.1
         PYTHON: "python3"
     install:
       - $PYTHON -m pip install -r requirements.txt
@@ -56,6 +58,7 @@ for:
       - sudo apt update
       - sudo apt install -y flatpak python3.7 python3-pip
       - bash install-flatpak.sh
+      - export R_VERSION=`flatpak run org.jamovi.jamovi --r-version`
       - export APPVEYOR_SAVE_CACHE_ON_ERROR=true
       - python3.7 -m pip install -r requirements.txt
       - git submodule update --init --recursive

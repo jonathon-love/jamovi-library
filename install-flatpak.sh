@@ -8,5 +8,5 @@ if flatpak info --user org.jamovi.jamovi 1>/dev/null 2>/dev/null ; then
     echo "jamovi already installed"
 else
     echo "installing jamovi"
-    flatpak install    --user -y https://dl.flathub.org/build-repo/13394/org.jamovi.jamovi.flatpakref
+    flatpak install    --user -y flathub org.jamovi.jamovi
 fi

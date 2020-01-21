@@ -14,7 +14,7 @@ import asyncio
 import platform
 from asyncio import create_subprocess_shell
 
-R_VERSION = '3.6.1'
+R_VERSION = os.environ['R_VERSION']
 
 if os.name == 'nt':
     OS = 'win64'
