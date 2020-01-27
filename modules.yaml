@@ -71,10 +71,7 @@ modules:
         - macos
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
-      commit: 11c9457c716620ccce51009bedfb0892e16dc90b
-      platforms:
-        - win64
-        - macos
+      commit: 4036189b71dc17f7701e9eb0200ddbd06e500d77
     - name: blandr
       url: https://github.com/jonathon-love/blandr.git
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
