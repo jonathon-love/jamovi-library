@@ -123,6 +123,9 @@ async def generate_index():
         if 'platforms' in module and OS not in module['platforms']:
             continue
 
+        if module.get('hidden', False):
+            continue
+
         name = module['name']
         jmo = '{}.jmo'.format(name)
         zip = ZipFile(jmo)

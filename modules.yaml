@@ -84,6 +84,7 @@ modules:
     - name: rosetta
       url: https://gitlab.com/r-packages/rosetta.git
       commit: 86d983510d408e4c823a6a72f9dab7d0e637d5bf
+      hidden: true
       platforms:
         - win64
         - macos
