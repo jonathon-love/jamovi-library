@@ -12,7 +12,7 @@ modules:
       subdir: jpower
     - name: gamlj
       url: https://github.com/gamlj/gamlj.git
-      commit: e655fec5fe17e30baa29bc591ab54d9ab54fa57f
+      commit: c2cb617d1460de2b3887f75b6202095496edea01
     - name: jamm
       url: https://github.com/jamovi-amm/jamm.git
       commit: 4604a55cd5d5837398f16ffd383351bcba38563d
