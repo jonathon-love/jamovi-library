@@ -12,7 +12,7 @@ modules:
       subdir: jpower
     - name: gamlj
       url: https://github.com/gamlj/gamlj.git
-      commit: c2cb617d1460de2b3887f75b6202095496edea01
+      commit: a5d99fbbb3f49b677d4b0767e4f956e0c254c6cf
     - name: jamm
       url: https://github.com/jamovi-amm/jamm.git
       commit: bead6aad87e93efc5d08073df5062af93ded7b6c
@@ -87,7 +87,7 @@ modules:
       hidden: true
     - name: esci
       url: https://github.com/rcalinjageman/esci.git
-      commit: a9180d8723af03296aee3dec1fb5228056528134
+      commit: 160881dea1911e20f6c212ef39701ae676d8ac28
       hidden: true
     - name: rosetta
       url: https://gitlab.com/r-packages/rosetta.git
