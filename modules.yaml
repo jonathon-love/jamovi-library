@@ -5,7 +5,7 @@ modules:
       commit: b7eb1af9d223448128eda74aa77037e23bd543f9
     - name: Rj
       url: https://github.com/jonathon-love/Rj.git
-      commit: b45b0585ada8a9f04e9085dd90801b5b224041b9
+      commit: a9180d8723af03296aee3dec1fb5228056528134
     - name: jpower
       url: https://github.com/richarddmorey/jpower.git
       commit: e15754594adb5294c293c604aab5769e64e95475
