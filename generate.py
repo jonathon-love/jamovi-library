@@ -139,7 +139,7 @@ async def generate_index():
                     final[key] = data[key]
                 except KeyError:
                     pass
-            final['architectures'] = [ { 'name': '*', 'path': '{}-{}.jmo'.format(name, version) } ]
+            final['architectures'] = [ { 'name': OS, 'path': '{}-{}.jmo'.format(name, version) } ]
             modules.append(final)
 
     index = {
