@@ -1,7 +1,7 @@
 image:
   - Visual Studio 2017
-  - macos
   - Ubuntu
+  - macos
 
 matrix:
   fast_finish: true
