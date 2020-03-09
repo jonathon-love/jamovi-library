@@ -75,6 +75,12 @@ modules:
     - name: blandr
       url: https://github.com/jonathon-love/blandr.git
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
+    - name: ClinicoPath
+      url: https://github.com/sbalci/ClinicoPathJamoviModule.git
+      commit: 2a002ef8cafd1554a5842e50ef709032c81f5b9b
+      platforms:
+        - win64
+        - macos
     - name: jmvbaseR
       url: https://github.com/jamovi/jmvbaseR.git
       commit: dd411c6578e854c981d64bbe91d1a2e1fea1ade8
