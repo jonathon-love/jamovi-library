@@ -77,8 +77,7 @@ modules:
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
     - name: ClinicoPath
       url: https://github.com/sbalci/ClinicoPathJamoviModule.git
-      commit: 2a002ef8cafd1554a5842e50ef709032c81f5b9b
-      hidden: true
+      commit: 92c7f60a9e539c8a6b0f82143880441044da9bbf
       platforms:
         - win64
         - macos
