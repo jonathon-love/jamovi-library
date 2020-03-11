@@ -133,6 +133,14 @@ async def generate_index():
             content = stream.read()
             data = load(content, Loader=SafeLoader)
             version = data['version']
+
+            min_app_version = data.get('minApp', '1.2.9')
+            min_app_version.split('.')
+            while len(min_app_version) < 4:
+                min_app_version.append('0')
+            min_app_version = min_app_version[0:4]
+            min_app_version = '.'.join(min_app_version)
+
             final = OrderedDict()
             for key in keep_info:
                 try:
@@ -140,6 +148,8 @@ async def generate_index():
                 except KeyError:
                     pass
             final['architectures'] = [ { 'name': OS, 'path': '{}-{}.jmo'.format(name, version) } ]
+            final['requires'] = { 'jamovi': '>= {}'.format(min_app_version) }
+
             modules.append(final)
 
     index = {
