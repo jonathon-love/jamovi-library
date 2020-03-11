@@ -89,3 +89,5 @@ deploy:
     bucket: jamovi-library
     region: us-east-1
     set_public: true
+    on:
+        branch: master
