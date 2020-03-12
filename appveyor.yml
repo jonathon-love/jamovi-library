@@ -1,3 +1,4 @@
+
 image:
   - Visual Studio 2017
   - Ubuntu
@@ -53,6 +54,7 @@ for:
     environment:
         JAMOVI_HOME: flatpak
         R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+        APPVEYOR_CONSOLE_DISABLE_PTY: true
     install:
       - sudo add-apt-repository ppa:alexlarsson/flatpak
       - sudo apt update
