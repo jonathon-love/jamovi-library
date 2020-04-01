@@ -39,7 +39,7 @@ async def generate_modules():
     ]
 
     BUILD_COMMANDS = [
-        'node jamovi-compiler/index.js --build "{name}/{subdir}" --home "{jamovi_home}" --jmo {name}.jmo',
+        'node jamovi-compiler/index.js --build "{name}/{subdir}" --home "{jamovi_home}" --jmo {name}.jmo --mirror "{mirror}"',
         'appveyor PushArtifact {name}.jmo -FileName "{outdir}/{name}-{version}.jmo" -DeploymentName Modules',
     ]
 
@@ -84,6 +84,7 @@ async def generate_modules():
                 module['subdir'] = ''
 
             module['jamovi_home'] = os.environ['JAMOVI_HOME']
+            module['mirror'] = os.environ['CRAN_MIRROR']
 
         else:
             commands = ZIP_COMMANDS
