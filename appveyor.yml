@@ -72,24 +72,25 @@ for:
     cache:
       - /home/appveyor/.local/share/flatpak/app/org.jamovi.jamovi -> install-flatpak.sh
 
-# deploy:
-#   provider: FTP
-#   protocol: sftp
-#   host: jamovi.org
-#   username:
-#     secure: VRak1kh1UY0ykCgn74VqqA==
-#   password:
-#     secure: 8dTV1PfWmfeEndm/izRQuJwBc9OfhYvavIEb7tXcjN8=
-#   folder: library.jamovi.org
 
 deploy:
-    provider: S3
-    access_key_id:
-        secure: N8joJYrY0qe2TVtDes16QkENBiJxNI5mGyQJVPNvwBI=
-    secret_access_key:
-        secure: nY0Q0+LKzvSchTdNB2rrLvqWQYCubOnWO5OpZ1tLgLWGRQad5HWDK2jJ7Q4WDnV3
-    bucket: jamovi-library
-    region: us-east-1
-    set_public: true
-    on:
-        branch: master
+  provider: FTP
+  protocol: sftp
+  host: jamovi.org
+  username:
+    secure: VRak1kh1UY0ykCgn74VqqA==
+  password:
+    secure: Ic414NL5O/38GUj+vU67xA==
+  folder: library.jamovi.org
+
+# deploy:
+#     provider: S3
+#     access_key_id:
+#         secure: N8joJYrY0qe2TVtDes16QkENBiJxNI5mGyQJVPNvwBI=
+#     secret_access_key:
+#         secure: nY0Q0+LKzvSchTdNB2rrLvqWQYCubOnWO5OpZ1tLgLWGRQad5HWDK2jJ7Q4WDnV3
+#     bucket: jamovi-library
+#     region: us-east-1
+#     set_public: true
+#     on:
+#         branch: master
