@@ -87,6 +87,10 @@ modules:
     - name: jmvarcade
       url: https://github.com/raviselker/jmvarcade.git
       commit: a57dcd072359e247c75ddfd14195572e4b6d1a4b
+    - name: survejmv
+      url: https://github.com/raviselker/survejmv.git
+      commit: 612f271d7a6eb64a15388946fed5dfb8d3fc4683
+      hidden: true
     - name: PartialProximity
       url: https://github.com/sjentsch/PartialProximity.git
       commit: fad69297bdbb3fd29f060904eeceead8ea0dfd48
