@@ -22,6 +22,12 @@ modules:
       platforms:
         - win64
         - macos
+    - name: jsq
+      url: https://github.com/jonathon-love/jsq.git
+      commit: 8a9dfda3bf995dfcfc1934710374778f3c7e0a2b
+      platforms:
+        - linux
+      hidden: true
     - name: medmod
       url: https://github.com/raviselker/medmod.git
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
