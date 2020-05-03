@@ -8,16 +8,16 @@ matrix:
   fast_finish: true
 
 environment:
-    CRAN_MIRROR: https://cran.microsoft.com/snapshot/2020-01-01
+    CRAN_MIRROR: https://cran.microsoft.com/snapshot/2020-05-01
 
 for:
   - matrix:
         only:
           - image: Visual Studio 2017
     environment:
-        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.2.0-win64.zip
-        JAMOVI_HOME: jamovi-1.2.2.0-win64
-        R_VERSION: 3.6.1
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.3.0.0-win64.zip
+        JAMOVI_HOME: jamovi
+        R_VERSION: 3.6.3
         PYTHON: "C:\\Python38-x64\\python"
     before_build:
       - tzutil /s "GMT Standard Time"
@@ -36,10 +36,11 @@ for:
         only:
           - image: macos
     environment:
-        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.3.0-macos.zip
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-dev.zip
         JAMOVI_HOME: jamovi.app
-        R_VERSION: 3.6.1
+        R_VERSION: 3.6.3
         PYTHON: "python3"
+        APPVEYOR_CONSOLE_DISABLE_PTY: true
     install:
       - $PYTHON -m pip install -r requirements.txt
       - curl -o jamovi.zip $JAMOVI_URL
@@ -58,7 +59,7 @@ for:
         JAMOVI_HOME: flatpak
         R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
         APPVEYOR_CONSOLE_DISABLE_PTY: true
-        CRAN_MIRROR: https://jamovi.org/downloads/repo/3.6.2/2020-01-01,https://cran.microsoft.com/snapshot/2020-01-01
+        CRAN_MIRROR: https://www.jamovi.org/downloads/repo/3.6.3/2020-05-01,https://cran.microsoft.com/snapshot/2020-05-01
     install:
       - sudo add-apt-repository ppa:alexlarsson/flatpak
       - sudo apt update
