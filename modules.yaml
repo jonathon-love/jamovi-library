@@ -31,6 +31,9 @@ modules:
     - name: medmod
       url: https://github.com/raviselker/medmod.git
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
+    - name: surveymv
+      url: https://github.com/raviselker/surveymv.git
+      commit: 4567c4d6e0c8a6eefc4c7103e910e080361fba6a
     - name: MAJOR
       url: https://github.com/kylehamilton/MAJOR.git
       commit: 8d11d3d70df5d07ba9b8410cf3b0cf1b3575b87d
@@ -93,10 +96,6 @@ modules:
     - name: jmvarcade
       url: https://github.com/raviselker/jmvarcade.git
       commit: a57dcd072359e247c75ddfd14195572e4b6d1a4b
-    - name: survejmv
-      url: https://github.com/raviselker/survejmv.git
-      commit: 612f271d7a6eb64a15388946fed5dfb8d3fc4683
-      hidden: true
     - name: PartialProximity
       url: https://github.com/sjentsch/PartialProximity.git
       commit: fad69297bdbb3fd29f060904eeceead8ea0dfd48
