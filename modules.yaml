@@ -78,18 +78,18 @@ modules:
       platforms:
         - win64
         - macos
+    - name: ClinicoPath
+      url: https://github.com/sbalci/ClinicoPath.git
+      commit: e727b0fe5a2ffbc728558f3d73e32525763f67a7
+      platforms:
+        - win64
+        - macos
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
       commit: 4036189b71dc17f7701e9eb0200ddbd06e500d77
     - name: blandr
       url: https://github.com/jonathon-love/blandr.git
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
-    - name: ClinicoPath
-      url: https://github.com/sbalci/ClinicoPathJamoviModule.git
-      commit: 92c7f60a9e539c8a6b0f82143880441044da9bbf
-      platforms:
-        - win64
-        - macos
     - name: jmvbaseR
       url: https://github.com/jamovi/jmvbaseR.git
       commit: dd411c6578e854c981d64bbe91d1a2e1fea1ade8
