@@ -16,7 +16,7 @@ for:
           - image: Visual Studio 2017
     environment:
         JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.19.0-win64.zip
-        JAMOVI_HOME: jamovi
+        JAMOVI_HOME: jamovi-1.2.19.0-win64
         R_VERSION: 3.6.3
         PYTHON: "C:\\Python38-x64\\python"
     before_build:
