@@ -31,6 +31,10 @@ modules:
     - name: medmod
       url: https://github.com/raviselker/medmod.git
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
+    - name: esci
+      url: https://github.com/rcalinjageman/esci.git
+      commit: be4859c9dfdb4945d4ab4d21468ada231d846556
+      hidden: true
     - name: surveymv
       url: https://github.com/raviselker/surveymv.git
       commit: 4567c4d6e0c8a6eefc4c7103e910e080361fba6a
@@ -99,10 +103,6 @@ modules:
     - name: PartialProximity
       url: https://github.com/sjentsch/PartialProximity.git
       commit: fad69297bdbb3fd29f060904eeceead8ea0dfd48
-      hidden: true
-    - name: esci
-      url: https://github.com/rcalinjageman/esci.git
-      commit: 160881dea1911e20f6c212ef39701ae676d8ac28
       hidden: true
     - name: rosetta
       url: https://gitlab.com/r-packages/rosetta.git
