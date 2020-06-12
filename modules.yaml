@@ -52,7 +52,7 @@ modules:
       commit: 64f4b7a9fa91c88e8c0ebe9ee453322a8757541a
     - name: deathwatch
       url: https://github.com/jonathon-love/deathwatch.git
-      commit: 48f5876d0a447c3a9b37973c4f6889f4d1355c16
+      commit: c8cdb45c31a595d798a536d6f397bc2302f90272
     - name: flexplot
       url: https://github.com/dustinfife/flexplot.git
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
