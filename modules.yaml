@@ -56,6 +56,9 @@ modules:
     - name: flexplot
       url: https://github.com/dustinfife/flexplot.git
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
+    - name: seolmatrix
+      url: https://github.com/hyunsooseol/seolmatrix
+      commit: d911949483a0c4af6f3b9e7a18ccee66cd06adb8
     - name: moretests
       url: https://github.com/jonathon-love/moretests.git
       commit: cdaffc03b77dfd2c8f3ca3bcc344b9b98de3395d
