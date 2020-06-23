@@ -71,7 +71,7 @@ modules:
       precompiled: true
     - name: r-datasets
       url: https://github.com/jamovi/r-datasets.git
-      commit: d093742b238313538ba2994df3d31177302a5c8b
+      commit: e9ecac7edc5c9a6215a932842e47022a654db524
       precompiled: true
     - name: Statkat
       url: https://github.com/rivkamdevries/Statkat.git
