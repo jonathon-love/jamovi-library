@@ -61,7 +61,7 @@ modules:
       commit: d911949483a0c4af6f3b9e7a18ccee66cd06adb8
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
-      commit: 6b72fa33fc79ebcc01158f384c779bbc82b730fe
+      commit: 388f76444cceaa62fe604910f05ed77ccd8b1602
     - name: moretests
       url: https://github.com/jonathon-love/moretests.git
       commit: cdaffc03b77dfd2c8f3ca3bcc344b9b98de3395d
