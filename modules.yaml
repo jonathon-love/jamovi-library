@@ -62,6 +62,9 @@ modules:
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
       commit: 388f76444cceaa62fe604910f05ed77ccd8b1602
+    - name: cNORMj
+      url: https://github.com/WLenhard/cNORM_JAMOVI.git
+      commit: f93cfa2929af0a91d51eef741bdb0243da2e1dde
     - name: moretests
       url: https://github.com/jonathon-love/moretests.git
       commit: cdaffc03b77dfd2c8f3ca3bcc344b9b98de3395d
