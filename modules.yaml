@@ -56,6 +56,9 @@ modules:
     - name: flexplot
       url: https://github.com/dustinfife/flexplot.git
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
+    - name: jjstatsplot
+      url: https://github.com/sbalci/jjstatsplot.git
+      commit: 9a45a583e73edf2d6cafb03ac347dedc5fd42f0b
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
       commit: 5b5297bee8780a2704bf5ab461ad30f865e665b7
