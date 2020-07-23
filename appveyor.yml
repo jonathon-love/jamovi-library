@@ -25,6 +25,8 @@ for:
       - "%PYTHON% -m pip install -r requirements.txt"
       - curl -o jamovi.zip %JAMOVI_URL%
       - ps: Expand-Archive -Path jamovi.zip -DestinationPath .
+      - curl -o Rtools.exe https://cran.r-project.org/bin/windows/Rtools/Rtools35.exe
+      - Rtools.exe /VERYSILENT -NoNewWindow -Wait
       - git submodule update --init --recursive
       - cd jamovi-compiler
       - npm install
