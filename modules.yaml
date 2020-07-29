@@ -53,6 +53,9 @@ modules:
     - name: deathwatch
       url: https://github.com/jonathon-love/deathwatch.git
       commit: c8cdb45c31a595d798a536d6f397bc2302f90272
+    - name: jsurvival
+      url: https://github.com/sbalci/jsurvival.git
+      commit: 65abbbd860e792ffc794b404871f986b58179129
     - name: flexplot
       url: https://github.com/dustinfife/flexplot.git
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
