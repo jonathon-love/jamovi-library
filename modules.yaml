@@ -109,6 +109,9 @@ modules:
     - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathDescriptives.git
       commit: 0bc3ea8c48b26059c4294c0e527f73fd7bdd4e05
+      platforms:
+        - win64
+        - macos
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
       commit: 4036189b71dc17f7701e9eb0200ddbd06e500d77
