@@ -124,14 +124,14 @@ modules:
     - name: jmvarcade
       url: https://github.com/raviselker/jmvarcade.git
       commit: a57dcd072359e247c75ddfd14195572e4b6d1a4b
-    - name: PartialProximity
-      url: https://github.com/sjentsch/PartialProximity.git
-      commit: fad69297bdbb3fd29f060904eeceead8ea0dfd48
-      hidden: true
-    - name: rosetta
-      url: https://gitlab.com/r-packages/rosetta.git
-      commit: 86d983510d408e4c823a6a72f9dab7d0e637d5bf
-      hidden: true
-      platforms:
-        - win64
-        - macos
+#     - name: PartialProximity
+#       url: https://github.com/sjentsch/PartialProximity.git
+#       commit: fad69297bdbb3fd29f060904eeceead8ea0dfd48
+#       hidden: true
+#     - name: rosetta
+#       url: https://gitlab.com/r-packages/rosetta.git
+#       commit: 86d983510d408e4c823a6a72f9dab7d0e637d5bf
+#       hidden: true
+#       platforms:
+#         - win64
+#         - macos
