@@ -115,6 +115,9 @@ modules:
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
       commit: 4036189b71dc17f7701e9eb0200ddbd06e500d77
+    - name: QM
+      url: https://github.com/Sebastien-Le/QM.git
+      commit: 384cb6d4e3046f4cc22fd289e3cd36b3c594e5dd
     - name: blandr
       url: https://github.com/jonathon-love/blandr.git
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
