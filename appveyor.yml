@@ -1,14 +1,14 @@
 
 image:
+  - Ubuntu
   - macos
   - Visual Studio 2017
-  - Ubuntu
 
 matrix:
   fast_finish: true
 
 environment:
-    CRAN_MIRROR: https://cran.microsoft.com/snapshot/2020-05-01
+    CRAN_MIRROR: https://cran.microsoft.com/snapshot/2020-08-24
 
 for:
   - matrix:
@@ -61,7 +61,7 @@ for:
         JAMOVI_HOME: flatpak
         R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
         APPVEYOR_CONSOLE_DISABLE_PTY: true
-        CRAN_MIRROR: https://www.jamovi.org/downloads/repo/3.6.3/2020-05-01,https://cran.microsoft.com/snapshot/2020-05-01
+        CRAN_MIRROR: https://www.jamovi.org/downloads/repo/4.0.2/2020-08-24,https://cran.microsoft.com/snapshot/2020-08-24
     install:
       - sudo add-apt-repository ppa:alexlarsson/flatpak
       - sudo apt update
