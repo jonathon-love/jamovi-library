@@ -70,7 +70,7 @@ modules:
         - macos
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
-      commit: 6aa96131b2a5a5b24ba4662e751c347b48b64278
+      commit: ede7c2a8b9df6a426fc277610560e20eedd3e18f
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
       commit: 2824f4ca7a66f6d209fc5e93c9275c0613947674
