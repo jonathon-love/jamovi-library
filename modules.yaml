@@ -76,6 +76,11 @@ modules:
       commit: 2824f4ca7a66f6d209fc5e93c9275c0613947674
       platforms:
         - win64
+    - name: snowIRT
+      url: https://github.com/jonathon-love/snowIRT.git
+      commit: 73073e24bce4391119567cc68f07462dd5b6d3af
+      platforms:
+        - macos
         - linux
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
