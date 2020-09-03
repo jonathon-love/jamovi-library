@@ -73,7 +73,7 @@ modules:
       commit: ede7c2a8b9df6a426fc277610560e20eedd3e18f
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
-      commit: eb635aa7fe1e67a8c81c8564b2cca422419556cb
+      commit: 060f2b7ff392a6a2caa1968f24029e4fdf7fcf0a
       platforms:
         - win64
     - name: snowIRT
