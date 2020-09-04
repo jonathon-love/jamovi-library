@@ -55,7 +55,7 @@ modules:
       commit: c8cdb45c31a595d798a536d6f397bc2302f90272
     - name: jsurvival
       url: https://github.com/sbalci/jsurvival.git
-      commit: 65abbbd860e792ffc794b404871f986b58179129
+      commit: 13378b62834109691c07f4a1392a6ec83d011140
       platforms:
         - win64
         - macos
