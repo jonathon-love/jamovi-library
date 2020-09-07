@@ -84,7 +84,7 @@ modules:
         - linux
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
-      commit: 83ab74c846af12459f935efa44b2f1841ef3a69b
+      commit: 93b2844e170362c38395d9d47ceea03c4a6b29f0
     - name: cNORMj
       url: https://github.com/WLenhard/cNORM_JAMOVI.git
       commit: f93cfa2929af0a91d51eef741bdb0243da2e1dde
