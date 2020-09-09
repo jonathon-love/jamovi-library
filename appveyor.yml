@@ -7,9 +7,6 @@ image:
 matrix:
   fast_finish: true
 
-environment:
-    CRAN_MIRROR: https://cran.microsoft.com/snapshot/2020-08-24
-
 for:
   - matrix:
         only:
@@ -19,6 +16,7 @@ for:
         JAMOVI_HOME: jamovi-1.2.19.0-win64
         R_VERSION: 3.6.3
         PYTHON: "C:\\Python38-x64\\python"
+        CRAN_MIRROR: https://cran.microsoft.com/snapshot/2020-05-01
     before_build:
       - tzutil /s "GMT Standard Time"
     install:
@@ -43,6 +41,7 @@ for:
         R_VERSION: 4.0.2
         PYTHON: "python3"
         APPVEYOR_CONSOLE_DISABLE_PTY: true
+        CRAN_MIRROR: https://cran.microsoft.com/snapshot/2020-08-24
     install:
       - $PYTHON -m pip install --user -r requirements.txt
       - curl -o jamovi.zip $JAMOVI_URL
