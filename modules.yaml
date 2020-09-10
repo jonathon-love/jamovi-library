@@ -72,16 +72,8 @@ modules:
       url: https://github.com/hyunsooseol/seolmatrix.git
       commit: ede7c2a8b9df6a426fc277610560e20eedd3e18f
     - name: snowIRT
-      url: https://github.com/hyunsooseol/snowIRT.git
-      commit: 060f2b7ff392a6a2caa1968f24029e4fdf7fcf0a
-      platforms:
-        - win64
-    - name: snowIRT
       url: https://github.com/jonathon-love/snowIRT.git
       commit: 73073e24bce4391119567cc68f07462dd5b6d3af
-      platforms:
-        - macos
-        - linux
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
       commit: 688e8619491d832cb27478037d7f0aca873e1529
@@ -131,7 +123,7 @@ modules:
       commit: 4036189b71dc17f7701e9eb0200ddbd06e500d77
     - name: QM
       url: https://github.com/Sebastien-Le/QM.git
-      commit: 384cb6d4e3046f4cc22fd289e3cd36b3c594e5dd
+      commit: bc367478dc9d1bb37d9fd011c56fde2707dfc4ec
       platforms:
         - win64
         - macos
