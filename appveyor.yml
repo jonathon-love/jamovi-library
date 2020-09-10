@@ -12,18 +12,18 @@ for:
         only:
           - image: Visual Studio 2017
     environment:
-        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.2.19.0-win64.zip
-        JAMOVI_HOME: jamovi-1.2.19.0-win64
-        R_VERSION: 3.6.3
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-1.6.3.0-win64.zip
+        JAMOVI_HOME: jamovi-1.6.3.0-win64
+        R_VERSION: 4.0.2
         PYTHON: "C:\\Python38-x64\\python"
-        CRAN_MIRROR: https://cran.microsoft.com/snapshot/2020-05-01
+        CRAN_MIRROR: https://cran.microsoft.com/snapshot/2020-08-24
     before_build:
       - tzutil /s "GMT Standard Time"
     install:
       - "%PYTHON% -m pip install -r requirements.txt"
       - curl -o jamovi.zip %JAMOVI_URL%
       - ps: Expand-Archive -Path jamovi.zip -DestinationPath .
-      - curl -o Rtools.exe https://cran.r-project.org/bin/windows/Rtools/Rtools35.exe
+      - curl -o Rtools.exe https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe
       - Rtools.exe /VERYSILENT -NoNewWindow -Wait
       - git submodule update --init --recursive
       - cd jamovi-compiler
