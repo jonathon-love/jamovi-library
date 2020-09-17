@@ -116,7 +116,7 @@ modules:
       platforms:
         - win64
         - macos
-    - name: ClinicoPathLinuxDescriptives
+    - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathLinuxDescriptives.git
       commit: cc63b37bd0a639194baf5a35db72783e05336027
       platforms:
