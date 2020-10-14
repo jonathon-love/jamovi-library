@@ -122,7 +122,7 @@ modules:
       commit: 38aaf74a807241def57c23b99cc89a31a1ed5123
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
-      commit: 4036189b71dc17f7701e9eb0200ddbd06e500d77
+      commit: c3f0e2da3c6fb851d57cd1736c515ce0d65bcb63
     - name: QM
       url: https://github.com/Sebastien-Le/QM.git
       commit: bc367478dc9d1bb37d9fd011c56fde2707dfc4ec
