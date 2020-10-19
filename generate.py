@@ -31,7 +31,7 @@ async def generate_modules():
     PREP_COMMANDS = [
         'git init',
         'git remote add origin {url}',
-        'git pull origin master',
+        'git pull origin {branch}',
         'git checkout {commit}',
         ('RD build /Q /S & echo ""' if os.name == 'nt' else 'rm -rf build'),
         # { 'cmd': 'git fetch origin {commit}', 'cwd': '{name}' },
@@ -55,6 +55,9 @@ async def generate_modules():
 
         if 'platforms' in module and OS not in module['platforms']:
             continue
+        
+        if 'branch' not in module:
+            module['branch'] = 'master'
 
         dir = module['name']
         os.makedirs(dir, exist_ok=True)
