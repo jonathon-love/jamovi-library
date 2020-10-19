@@ -100,12 +100,14 @@ modules:
       commit: bf09cf4058234a242921267680c233fff7e14dc4
     - name: ufs
       url: https://gitlab.com/r-packages/ufs.git
+      branch: prod
       commit: caafe1072351af90577d8eb255c2cf52c8c07aeb
       platforms:
         - win64
         - macos
     - name: behaviorchange
       url: https://gitlab.com/r-packages/behaviorchange.git
+      branch: prod
       commit: 0e6bbfc5c16df598b9e72182a2b73d4371532f10
       platforms:
         - win64
