@@ -129,6 +129,9 @@ modules:
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
       commit: c3f0e2da3c6fb851d57cd1736c515ce0d65bcb63
+      platforms:
+        - win64
+        - macos
     - name: QM
       url: https://github.com/Sebastien-Le/QM.git
       commit: bc367478dc9d1bb37d9fd011c56fde2707dfc4ec
