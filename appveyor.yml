@@ -1,7 +1,7 @@
 
 image:
-  - Visual Studio 2017
   - Ubuntu
+  - Visual Studio 2017
   - macos
 
 matrix:
@@ -62,6 +62,8 @@ for:
         APPVEYOR_CONSOLE_DISABLE_PTY: true
         CRAN_MIRROR: https://www.jamovi.org/downloads/repo/4.0.2/2020-08-24,https://cran.microsoft.com/snapshot/2020-08-24
     install:
+      - curl -O https://cran.microsoft.com/snapshot/2020-08-24/src/contrib/PACKAGES
+      - head -20 PACKAGES
       - sudo add-apt-repository ppa:alexlarsson/flatpak
       - sudo apt update
       - sudo apt install -y flatpak python3.7 python3-pip
