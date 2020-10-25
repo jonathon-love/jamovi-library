@@ -55,7 +55,7 @@ for:
 
   - matrix:
         only:
-          - image: Ubuntu
+          - image: Ubuntu2004
     environment:
         JAMOVI_HOME: flatpak
         R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
