@@ -144,6 +144,14 @@ modules:
     - name: jmvbaseR
       url: https://github.com/jamovi/jmvbaseR.git
       commit: dd411c6578e854c981d64bbe91d1a2e1fea1ade8
+    - name: rosetta
+      url: https://gitlab.com/r-packages/rosetta.git
+      commit: 86d983510d408e4c823a6a72f9dab7d0e637d5bf
+      branch: prod
+      platforms:
+        - linux
+        - win64
+        - macos
     - name: jmvarcade
       url: https://github.com/raviselker/jmvarcade.git
       commit: a57dcd072359e247c75ddfd14195572e4b6d1a4b
@@ -151,10 +159,3 @@ modules:
 #       url: https://github.com/sjentsch/PartialProximity.git
 #       commit: fad69297bdbb3fd29f060904eeceead8ea0dfd48
 #       hidden: true
-    - name: rosetta
-      url: https://gitlab.com/r-packages/rosetta.git
-      commit: 86d983510d408e4c823a6a72f9dab7d0e637d5bf
-      platforms:
-        - linux
-        - win64
-        - macos
