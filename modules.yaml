@@ -77,7 +77,7 @@ modules:
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
-      commit: e1a1e2a9a06ad4addd678e319c7ad7bfe8291c18
+      commit: d6174d00a66beeaec4c79b02583b24711ef1c01c
     - name: cNORMj
       url: https://github.com/WLenhard/cNORM_JAMOVI.git
       commit: f93cfa2929af0a91d51eef741bdb0243da2e1dde
