@@ -33,7 +33,7 @@ modules:
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
     - name: esci
       url: https://github.com/rcalinjageman/esci.git
-      commit: 719bee95b5b70c5303af34606cf646e32bfd17a2
+      commit: af3d5263c96e21ee647639506c84d7dc39905e78
     - name: surveymv
       url: https://github.com/raviselker/surveymv.git
       commit: aa36b7c9e6bbec514df4184897760905d85c5966
