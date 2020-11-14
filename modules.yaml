@@ -146,8 +146,8 @@ modules:
       commit: dd411c6578e854c981d64bbe91d1a2e1fea1ade8
     - name: rosetta
       url: https://gitlab.com/r-packages/rosetta.git
-      commit: 86d983510d408e4c823a6a72f9dab7d0e637d5bf
-      branch: prod
+      commit: 2728208216867a6cda8193bf5e0539c9002abed3
+      branch: jmv
       platforms:
         - linux
         - win64
