@@ -44,10 +44,10 @@ modules:
     - name: MAJOR
       url: https://github.com/kylehamilton/MAJOR.git
       commit: 8d11d3d70df5d07ba9b8410cf3b0cf1b3575b87d
-    - name: MAJOR
-      url: https://github.com/kylehamilton/MAJOR.git
-      commit: ba74db25ee29d76b0168c781cfe33d0ae43ebc41
-      hidden: true
+#     - name: MAJOR
+#       url: https://github.com/kylehamilton/MAJOR.git
+#       commit: ba74db25ee29d76b0168c781cfe33d0ae43ebc41
+#       hidden: true
     - name: walrus
       url: https://github.com/jamovi/walrus.git
       commit: 639c2bd6e3df8fcd7825234f58dfb1599b99ebca
