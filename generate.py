@@ -9,6 +9,7 @@ from os import scandir
 from os.path import basename
 
 import os
+import shutil
 import sys
 import asyncio
 import platform
@@ -60,6 +61,7 @@ async def generate_modules():
             module['branch'] = 'master'
 
         dir = module['name']
+        shutil.rmtree(dir, ignore_errors=True)
         os.makedirs(dir, exist_ok=True)
 
         for cmd in PREP_COMMANDS:
