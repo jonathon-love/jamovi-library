@@ -118,7 +118,7 @@ modules:
         - macos
     - name: Randomizer
       url: https://github.com/mbomford/Randomizer.git
-      commit: ddb0cca84911773d2d659b6a4ec4fc766ed7fc85
+      commit: 2faad0195d877548a5921dd784d93430a48228c2
       branch: main
     - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathDescriptives.git
