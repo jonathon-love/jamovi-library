@@ -15,7 +15,7 @@ modules:
       commit: 3b0b68e6d5ff70887d8be8196d072c6aeba58b9f
     - name: jamm
       url: https://github.com/jamovi-amm/jamm.git
-      commit: bead6aad87e93efc5d08073df5062af93ded7b6c
+      commit: 7a5deefe934f3a4b7045435b4d24a778f0d5b042
     - name: jsq
       url: https://github.com/jonathon-love/jsq.git
       commit: 12cf2cd30fa917dac6397fa6d6acf8720d9ba91d
