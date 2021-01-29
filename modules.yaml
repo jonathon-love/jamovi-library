@@ -87,7 +87,7 @@ modules:
       commit: f93cfa2929af0a91d51eef741bdb0243da2e1dde
     - name: moretests
       url: https://github.com/jonathon-love/moretests.git
-      commit: cdaffc03b77dfd2c8f3ca3bcc344b9b98de3395d
+      commit: 5b7260f90061580a4940f63ce123a7fdba02d536
     - name: distrACTION
       url: https://github.com/Mrihs/distrACTION.git
       commit: d1b39aad3ae05ee58985d542e29340aee9730983
