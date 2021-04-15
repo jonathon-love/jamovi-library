@@ -126,13 +126,13 @@ modules:
       branch: main
     - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathDescriptives.git
-      commit: cefb62e995a0b1fc22bf031c8cf686364aa1c5f4
+      commit: b10110547d6ca1637982094031a9e592c092a9c0
       platforms:
         - win64
         - macos
     - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathLinuxDescriptives.git
-      commit: f9f83ce4dfa889acbfaaedae0e84e6c4f4e40a2d
+      commit: 0bac188199fda2e8397f09a1416e162c18f6c85d
       platforms:
         - linux
     - name: meddecide
