@@ -59,7 +59,7 @@ modules:
       commit: c8cdb45c31a595d798a536d6f397bc2302f90272
     - name: jsurvival
       url: https://github.com/sbalci/jsurvival.git
-      commit: 9c57e504ddc0ceb42681f92b63ec0c0adf294436
+      commit: 83b75ef784a623a8d92999ed269ba0b859ba64ab
     - name: flexplot
       url: https://github.com/dustinfife/flexplot.git
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
