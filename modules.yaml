@@ -74,7 +74,7 @@ modules:
       commit: ccb912d35bb7cc0b0284bbdd7dc0a996e78362a6
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
-      commit: f1fca6cb4b07fc1ac103f0534ae0ffcaac0bd9bf
+      commit: 41f0903a48cf775238af206566bb88366160546d
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
       commit: 54e4a01150f2ad1eaea1740a73ffc650cd911e0d
