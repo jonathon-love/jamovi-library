@@ -132,7 +132,7 @@ modules:
         - macos
     - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathLinuxDescriptives.git
-      commit: 0bac188199fda2e8397f09a1416e162c18f6c85d
+      commit: ab7082d3c8d9005ca2c445e8c04f2606a93a156e
       platforms:
         - linux
     - name: meddecide
