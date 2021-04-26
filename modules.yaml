@@ -150,6 +150,9 @@ modules:
       platforms:
         - win64
         - macos
+    - name: MEDA
+      url: https://github.com/Sebastien-Le/MEDA.git
+      commit: 7e5fcef20e36cfb6a1691196d58092d15e394208
     - name: blandr
       url: https://github.com/jonathon-love/blandr.git
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
