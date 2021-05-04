@@ -7,6 +7,8 @@ image:
 matrix:
   fast_finish: true
 
+build: Script
+
 for:
   - matrix:
         only:
@@ -56,7 +58,6 @@ for:
   - matrix:
         only:
           - image: Ubuntu2004
-    build: Script
     environment:
         JAMOVI_HOME: flatpak
         R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
