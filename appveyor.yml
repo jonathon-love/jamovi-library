@@ -1,13 +1,11 @@
 
 image:
-  - Ubuntu
+  - Ubuntu2004
   - Visual Studio 2017
   - macos
 
 matrix:
   fast_finish: true
-
-build: Script
 
 for:
   - matrix:
