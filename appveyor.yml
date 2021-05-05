@@ -63,7 +63,7 @@ for:
         CRAN_MIRROR: https://www.jamovi.org/downloads/repo/4.0.5/2021-04-01,https://cran.microsoft.com/snapshot/2021-04-01
     install:
       # - sudo add-apt-repository ppa:alexlarsson/flatpak
-      - sudo apt update
+      # - sudo apt update
       - sudo apt install -y flatpak python3 python3-pip
       - bash install-flatpak.sh
       - export R_VERSION=`flatpak run org.jamovi.jamovi --r-version`
