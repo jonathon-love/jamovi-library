@@ -106,6 +106,9 @@ modules:
     - name: Statkat
       url: https://github.com/rivkamdevries/Statkat.git
       commit: bf09cf4058234a242921267680c233fff7e14dc4
+    - name: SimplyAgree
+      url: https://github.com/arcaldwell49/SimplyAgree.git
+      commit: 9669718737b08117e23fe63f363513ce9102bde4
     - name: ufs
       url: https://gitlab.com/r-packages/ufs.git
       branch: prod
