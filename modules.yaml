@@ -48,6 +48,9 @@ modules:
       url: https://github.com/kylehamilton/MAJOR.git
       commit: b8879ad1de2efad86b1a0e60ed031482559d8f95
       hidden: true
+    - name: pathj
+      url: https://github.com/pathj/pathj.git
+      commit: 827ca5a9153f4dd5f384e5c33a9b8ff2752dc779
     - name: walrus
       url: https://github.com/jamovi/walrus.git
       commit: 639c2bd6e3df8fcd7825234f58dfb1599b99ebca
