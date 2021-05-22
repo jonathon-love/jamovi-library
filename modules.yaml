@@ -139,7 +139,7 @@ modules:
       commit: 38aaf74a807241def57c23b99cc89a31a1ed5123
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
-      commit: be4cac0efca5afcbf408bd31e4154ef77272b265
+      commit: 633ba3a8ecbb84a9c480f04b275894961abe9fff
       platforms:
         - win64
         - macos
