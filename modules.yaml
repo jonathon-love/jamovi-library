@@ -155,6 +155,9 @@ modules:
     - name: MEDA
       url: https://github.com/Sebastien-Le/MEDA.git
       commit: cf54d1fb32587b8ea063ed4956b0e0c79d0ed6a9
+    - name: SEDA
+      url: https://github.com/Sebastien-Le/SEDA.git
+      commit: a8de5e8f0251b11203fd30dd6e30bc3116f757bd
     - name: blandr
       url: https://github.com/jonathon-love/blandr.git
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
