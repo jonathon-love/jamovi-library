@@ -81,8 +81,8 @@ for:
       - cd $APPVEYOR_BUILD_FOLDER
     build_script:
       - python3 generate.py
-    cache:
-      - /home/appveyor/.local/share/flatpak/app/org.jamovi.jamovi -> install-flatpak.sh
+    #cache:
+    #  - /home/appveyor/.local/share/flatpak/app/org.jamovi.jamovi -> install-flatpak.sh
 
 
 deploy:
