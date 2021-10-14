@@ -98,6 +98,10 @@ modules:
       url: https://github.com/gasper25/clt.git
       branch: main
       commit: 4b251e25e4d609f8938224b91740ee0143354cf2
+    - name: ztestvis
+      url: https://github.com/wjschne/ztest.git
+      branch: main
+      commit: 6f0b4c119e223f17a47cb7efa740bae0d1b2c2f9
     - name: lsj-data
       url: https://github.com/davidfoxcroft/lsj-data.git
       commit: 635608b86c103406357377a921a4b09697c75e52
