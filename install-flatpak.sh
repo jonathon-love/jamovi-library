@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dpkg-reconfigure ca-certificates
+sudo dpkg-reconfigure ca-certificates
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 #if flatpak info --user org.jamovi.jamovi 1>/dev/null 2>/dev/null ; then
