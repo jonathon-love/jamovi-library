@@ -1,6 +1,6 @@
 #!/bin/bash
 
-flatpak remote-add --user --if-not-exists flathub https://www.jamovi.org/misc/flathub.flatpakrepo
+flatpak remote-add --user --if-not-exists flathub https://library.jamovi.org/flathub.flatpakrepo
 
 if flatpak info --user org.jamovi.jamovi 1>/dev/null 2>/dev/null ; then
     echo "jamovi already installed"
