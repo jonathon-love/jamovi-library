@@ -46,8 +46,8 @@ modules:
       commit: e37aa1a984e93efc644653654a14948a3e17f3d7
       hidden: true
     - name: MAJOR
-      url: https://github.com/kylehamilton/MAJOR.git
-      commit: cb8dc142cd8283a750279b8c96f2979b771d8370
+      url: https://github.com/MAgojam/MAJOR.git
+      commit: e99fc6b4087c7cfbf009895195a0167c6699f475
     - name: pathj
       url: https://github.com/pathj/pathj.git
       commit: 2b1a63651e757f7ae3322c20e9763199b22f68e2
