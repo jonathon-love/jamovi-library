@@ -18,7 +18,7 @@ for:
         PYTHON: "C:\\Python38-x64\\python"
         CRAN_MIRROR: https://cran.microsoft.com/snapshot/2021-04-01
         GITHUB_PAT:
-          secure: r9Zxw1QfbSq9foaUgfgKvfQY07o6ZJ0B/Kq3zGlrCFvB+y/U6iW99yXzLMhv1uKE
+          secure: SMnRxP91sUYiW+uuO5bRWTsiJmg2W1vuFJAi8P4cJN2CXq4+YTNYI7Bqf4fNguXH
     before_build:
       - tzutil /s "GMT Standard Time"
     install:
@@ -45,7 +45,7 @@ for:
         APPVEYOR_CONSOLE_DISABLE_PTY: true
         CRAN_MIRROR: https://cran.microsoft.com/snapshot/2021-04-01
         GITHUB_PAT:
-          secure: r9Zxw1QfbSq9foaUgfgKvfQY07o6ZJ0B/Kq3zGlrCFvB+y/U6iW99yXzLMhv1uKE
+          secure: SMnRxP91sUYiW+uuO5bRWTsiJmg2W1vuFJAi8P4cJN2CXq4+YTNYI7Bqf4fNguXH
     install:
       - $PYTHON -m pip install --user -r requirements.txt
       - curl -o jamovi.zip $JAMOVI_URL
@@ -66,7 +66,7 @@ for:
         APPVEYOR_CONSOLE_DISABLE_PTY: true
         CRAN_MIRROR: https://www.jamovi.org/downloads/repo/4.1.1/2021-04-01,https://cran.microsoft.com/snapshot/2021-04-01
         GITHUB_PAT:
-          secure: r9Zxw1QfbSq9foaUgfgKvfQY07o6ZJ0B/Kq3zGlrCFvB+y/U6iW99yXzLMhv1uKE
+          secure: SMnRxP91sUYiW+uuO5bRWTsiJmg2W1vuFJAi8P4cJN2CXq4+YTNYI7Bqf4fNguXH
     install:
       # - sudo add-apt-repository ppa:alexlarsson/flatpak
       - sudo apt update
