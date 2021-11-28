@@ -72,12 +72,6 @@ modules:
       platforms:
         - win64
         - macos
-    - name: jjstatsplot
-      url: https://github.com/sbalci/jjstatsplot.git
-      commit: 65723e84409669e3358994ae136881c7cedf01f3
-      hidden: true
-      platforms:
-        - linux
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
       commit: 882f7a44db3437a29a2f7897dd324fd7508da336
@@ -86,7 +80,7 @@ modules:
       commit: 41f0903a48cf775238af206566bb88366160546d
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
-      commit: 5bf94a8ca1aa48aff44e91792ad56c235c413e74
+      commit: bba722707d67ab496a5313524c04496c582f4142
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
