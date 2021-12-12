@@ -80,7 +80,7 @@ modules:
       commit: 41f0903a48cf775238af206566bb88366160546d
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
-      commit: bba722707d67ab496a5313524c04496c582f4142
+      commit: eec074b3b9dfb33d8cbf905d701ab29b151254f5
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
