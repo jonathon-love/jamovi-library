@@ -74,6 +74,7 @@ for:
       - curl -I https://flathub.org
       - openssl s_client -verify_return_error -connect flathub.org:443
       - gnutls-cli flathub.org
+      - flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
       - bash install-flatpak.sh
       - export R_VERSION=`flatpak run org.jamovi.jamovi --r-version`
       - export APPVEYOR_SAVE_CACHE_ON_ERROR=true
