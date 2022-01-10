@@ -151,6 +151,9 @@ modules:
     - name: meddecide
       url: https://github.com/sbalci/meddecide.git
       commit: 38aaf74a807241def57c23b99cc89a31a1ed5123
+      platforms:
+        - win64
+        - macos
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
       commit: 633ba3a8ecbb84a9c480f04b275894961abe9fff
