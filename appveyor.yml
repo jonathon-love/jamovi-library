@@ -1,8 +1,8 @@
 
 image:
-  - Ubuntu2004
-  - Visual Studio 2017
   - macos
+  - Ubuntu2004
+  #- Visual Studio 2017
 
 matrix:
   fast_finish: true
@@ -38,12 +38,12 @@ for:
         only:
           - image: macos
     environment:
-        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-2.2.2.0-macos.zip
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-unsigned.zip
         JAMOVI_HOME: jamovi.app
-        R_VERSION: 4.0.5
+        R_VERSION: 4.1.2
         PYTHON: "python3"
         APPVEYOR_CONSOLE_DISABLE_PTY: true
-        CRAN_MIRROR: https://cran.microsoft.com/snapshot/2021-04-01
+        CRAN_MIRROR: https://cran.microsoft.com/snapshot/2022-01-01
         GITHUB_PAT:
           secure: SMnRxP91sUYiW+uuO5bRWTsiJmg2W1vuFJAi8P4cJN2CXq4+YTNYI7Bqf4fNguXH
     install:
