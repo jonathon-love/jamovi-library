@@ -70,7 +70,7 @@ modules:
       url: https://github.com/sbalci/jjstatsplot.git
       commit: f11320070235f34c4205b3002d21294266f59cf9
       platforms:
-        - win64
+        #- win64
         - macos
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
