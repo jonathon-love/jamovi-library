@@ -80,7 +80,7 @@ modules:
         - macos
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
-      commit: 41f0903a48cf775238af206566bb88366160546d
+      commit: db8c0c270146c419493df2ab171fb0bb99c87154
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
       commit: 40b4ff42feafc9254ee1a9f08c6739aa75481c2f
