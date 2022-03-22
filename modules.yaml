@@ -154,7 +154,6 @@ modules:
       platforms:
         - win64
         - macos
-        - linux
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
       commit: 633ba3a8ecbb84a9c480f04b275894961abe9fff
