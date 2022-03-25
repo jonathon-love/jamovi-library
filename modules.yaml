@@ -68,10 +68,11 @@ modules:
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
     - name: jjstatsplot
       url: https://github.com/sbalci/jjstatsplot.git
-      commit: f11320070235f34c4205b3002d21294266f59cf9
+      commit: b26c2c37f02b25ff3c3d32391a5cc7f413373a9d
       platforms:
-        #- win64
+        - win64
         - macos
+        - linux
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
       commit: 1894dc10ea76a735b8fb268bfe9b839b1b933ae0
@@ -139,7 +140,7 @@ modules:
       branch: main
     - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathDescriptives.git
-      commit: b10110547d6ca1637982094031a9e592c092a9c0
+      commit: c425bb0021a097b76666006c19b3b87fa137264e
       platforms:
         - win64
         - macos
