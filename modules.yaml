@@ -72,7 +72,6 @@ modules:
       platforms:
         - win64
         - macos
-        - linux
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
       commit: 1894dc10ea76a735b8fb268bfe9b839b1b933ae0
