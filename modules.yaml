@@ -139,7 +139,7 @@ modules:
       branch: main
     - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathDescriptives.git
-      commit: b10110547d6ca1637982094031a9e592c092a9c0
+      commit: 783d0cb9a8e507b86ef3e04be99158045c5bcd9f
       platforms:
         - win64
         - macos
