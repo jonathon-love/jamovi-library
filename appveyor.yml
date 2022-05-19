@@ -17,7 +17,7 @@ for:
         PYTHON: "C:\\Python38-x64\\python"
         CRAN_MIRROR: https://cran.microsoft.com/snapshot/2021-04-01
         GITHUB_PAT:
-          secure: pJyDY1t8IE3T/CTQxBSQaS8g+dqKzkr7Yv6f1CpQuhXG9q4Ok9NCr/M/i0XaI08k
+          secure: KUGIdajS29zs6XPCIpcQtuJSJcFNbuf1NEzgSRJZyjtNo0LEDZQBhB9MxeTrSCiy
     before_build:
       - tzutil /s "GMT Standard Time"
     install:
@@ -44,7 +44,7 @@ for:
         APPVEYOR_CONSOLE_DISABLE_PTY: true
         CRAN_MIRROR: https://cran.microsoft.com/snapshot/2021-04-01
         GITHUB_PAT:
-          secure: pJyDY1t8IE3T/CTQxBSQaS8g+dqKzkr7Yv6f1CpQuhXG9q4Ok9NCr/M/i0XaI08k
+          secure: KUGIdajS29zs6XPCIpcQtuJSJcFNbuf1NEzgSRJZyjtNo0LEDZQBhB9MxeTrSCiy
     install:
       - $PYTHON -m pip install --user -r requirements.txt
       - curl -o jamovi.zip $JAMOVI_URL
@@ -65,7 +65,7 @@ for:
         APPVEYOR_CONSOLE_DISABLE_PTY: true
         CRAN_MIRROR: https://www.jamovi.org/downloads/repo/4.1.2/2022-01-01,https://cran.microsoft.com/snapshot/2022-01-01
         GITHUB_PAT:
-          secure: pJyDY1t8IE3T/CTQxBSQaS8g+dqKzkr7Yv6f1CpQuhXG9q4Ok9NCr/M/i0XaI08k
+          secure: KUGIdajS29zs6XPCIpcQtuJSJcFNbuf1NEzgSRJZyjtNo0LEDZQBhB9MxeTrSCiy
     install:
       - sudo apt update
       - sudo apt install -y flatpak python3 python3-pip gnutls-bin
