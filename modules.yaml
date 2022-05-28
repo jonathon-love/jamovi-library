@@ -71,7 +71,7 @@ modules:
       url: https://github.com/dustinfife/flexplot.git
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
     - name: jjstatsplot
-      url: https://github.com/sbalci/jjstatsplot.git
+      url: https://github.com/jonathon-love/jjstatsplot.git
       commit: d942e44823b50aee2e5203b1ce857688bad47831
       platforms:
         - win64
