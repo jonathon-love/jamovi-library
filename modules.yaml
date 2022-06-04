@@ -99,8 +99,8 @@ modules:
       url: https://github.com/jonathon-love/moretests.git
       commit: 9dd1faaa1b2f02bd8736da23f95d449aaedd31f7
     - name: distrACTION
-      url: https://github.com/Mrihs/distrACTION.git
-      commit: d1b39aad3ae05ee58985d542e29340aee9730983
+      url: https://github.com/methodenlehre/distrACTION.git
+      commit: 1f14b0fa1f4b8adee951cfba9ff0dcf6c8f39db5
     - name: clt
       url: https://github.com/gasper25/clt.git
       branch: main
