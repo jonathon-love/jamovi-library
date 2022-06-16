@@ -154,7 +154,7 @@ modules:
         - linux
     - name: meddecide
       url: https://github.com/sbalci/meddecide.git
-      commit: 2bda14af05d8dafe33d9d137705f9fb8ac527279
+      commit: 5f57788ae6699727230576973640453c7e72d02d
       platforms:
         - win64
         - macos
