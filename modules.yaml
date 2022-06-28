@@ -47,7 +47,7 @@ modules:
       hidden: true
     - name: MAJOR
       url: https://github.com/MAgojam/MAJOR.git
-      commit: 016f74acb6e8f8b6f226b85d5367f7e73fb6c6e1
+      commit: 312790d89c345490d4cd92e28e80dacfe3d17541
     - name: pathj
       url: https://github.com/pathj/pathj.git
       commit: 2b1a63651e757f7ae3322c20e9763199b22f68e2
