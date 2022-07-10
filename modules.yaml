@@ -82,6 +82,7 @@ modules:
       platforms:
         - win64
         - macos
+        - linux
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
       commit: f6facc90c48d08ab0bcd8afb979f79e1702ab0da
