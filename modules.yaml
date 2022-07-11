@@ -59,7 +59,7 @@ modules:
       commit: 64f4b7a9fa91c88e8c0ebe9ee453322a8757541a
     - name: deathwatch
       url: https://github.com/jonathon-love/deathwatch.git
-      commit: 037177f1d0f4a1b28bfb6079acbb831fbea6f465
+      commit: 687187189e7d0c03224c378e6e1c4294e566631b
     - name: jsurvival
       url: https://github.com/sbalci/jsurvival.git
       commit: 080034635c3f0173e5a22ddd2614d0af90504763
