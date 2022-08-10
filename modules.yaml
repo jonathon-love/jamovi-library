@@ -97,7 +97,7 @@ modules:
       commit: f93cfa2929af0a91d51eef741bdb0243da2e1dde
     - name: moretests
       url: https://github.com/jonathon-love/moretests.git
-      commit: 9dd1faaa1b2f02bd8736da23f95d449aaedd31f7
+      commit: 5b334810d1c2083756511fa97b34bf7b029851d7
     - name: distrACTION
       url: https://github.com/methodenlehre/distrACTION.git
       commit: 38dbd1c5a6edef5b56f2e1dee55f89cf9de58f2e
