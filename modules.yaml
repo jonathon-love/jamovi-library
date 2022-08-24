@@ -139,7 +139,6 @@ modules:
         - macos
     - name: metaumbrella
       url: https://github.com/CorentinJGosling/metaumbrella_jmv.git
-      branch: main
       commit: metaumbrella
       platforms:
         - win64
