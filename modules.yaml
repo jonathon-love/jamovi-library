@@ -137,6 +137,14 @@ modules:
       platforms:
         - win64
         - macos
+    - name: metaumbrella
+      url: https://github.com/CorentinJGosling/metaumbrella_jmv.git
+      branch: main
+      commit: metaumbrella
+      platforms:
+        - win64
+        - macos
+        # - linux
     - name: Randomizer
       url: https://github.com/mbomford/Randomizer.git
       commit: 2faad0195d877548a5921dd784d93430a48228c2
