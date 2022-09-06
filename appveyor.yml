@@ -91,7 +91,7 @@ deploy:
   username:
     secure: VRak1kh1UY0ykCgn74VqqA==
   password:
-    secure: 46x3rwu0Ts7zdn11ohXX/w==
+    secure: AVAH21aBWxVg/1Lyd9w88Q==
   folder: library.jamovi.org
 
 # deploy:
