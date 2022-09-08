@@ -94,7 +94,7 @@ modules:
       commit: 84c7b030f60ed5fa7a037d6fdbc34b8c6c8b4f5d
     - name: cNORMj
       url: https://github.com/WLenhard/cNORM_JAMOVI.git
-      commit: f93cfa2929af0a91d51eef741bdb0243da2e1dde
+      commit: beedbee28da7c55ab438f3fda3bb9cf3fb2900da
     - name: moretests
       url: https://github.com/jonathon-love/moretests.git
       commit: 5b334810d1c2083756511fa97b34bf7b029851d7
