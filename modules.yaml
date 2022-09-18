@@ -103,7 +103,7 @@ modules:
       commit: 5b334810d1c2083756511fa97b34bf7b029851d7
     - name: distrACTION
       url: https://github.com/methodenlehre/distrACTION.git
-      commit: 38dbd1c5a6edef5b56f2e1dee55f89cf9de58f2e
+      commit: fffdd03ea7432ab31b592d4a77f379bc4caed8d2
     - name: clt
       url: https://github.com/gasper25/clt.git
       branch: main
