@@ -51,6 +51,10 @@ modules:
     - name: pathj
       url: https://github.com/pathj/pathj.git
       commit: 2b1a63651e757f7ae3322c20e9763199b22f68e2
+    - name: jeva
+      url: https://github.com/PeterC-alfaisal/jeva.git
+      commit: 8720d5a499a251b453414f0c9205d903a22fa0a7
+      branch: main
     - name: walrus
       url: https://github.com/jamovi/walrus.git
       commit: 639c2bd6e3df8fcd7825234f58dfb1599b99ebca
