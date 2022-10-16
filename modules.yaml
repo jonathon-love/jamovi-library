@@ -60,7 +60,7 @@ modules:
       commit: 639c2bd6e3df8fcd7825234f58dfb1599b99ebca
     - name: TOSTER
       url: https://github.com/Lakens/TOSTER.git
-      commit: 64f4b7a9fa91c88e8c0ebe9ee453322a8757541a
+      commit: 66ee4af19e0da5c9367dcafeb709986303c7e339
     - name: deathwatch
       url: https://github.com/jonathon-love/deathwatch.git
       commit: 687187189e7d0c03224c378e6e1c4294e566631b
