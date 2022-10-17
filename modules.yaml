@@ -60,7 +60,7 @@ modules:
       commit: 639c2bd6e3df8fcd7825234f58dfb1599b99ebca
     - name: TOSTER
       url: https://github.com/Lakens/TOSTER.git
-      commit: 66ee4af19e0da5c9367dcafeb709986303c7e339
+      commit: 9bc335f5ef3c59c90e754049e718a2fbce22c60e
     - name: deathwatch
       url: https://github.com/jonathon-love/deathwatch.git
       commit: 687187189e7d0c03224c378e6e1c4294e566631b
@@ -129,7 +129,7 @@ modules:
       commit: bf09cf4058234a242921267680c233fff7e14dc4
     - name: SimplyAgree
       url: https://github.com/arcaldwell49/SimplyAgree.git
-      commit: 9669718737b08117e23fe63f363513ce9102bde4
+      commit: f0c526c513a81dbbe0578d33d1c5cdcfd4691676
     - name: ufs
       url: https://gitlab.com/r-packages/ufs.git
       branch: prod
