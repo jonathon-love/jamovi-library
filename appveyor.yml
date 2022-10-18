@@ -12,8 +12,8 @@ for:
         only:
           - image: Visual Studio 2017
     environment:
-        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-2.3.9.0-win64.zip
-        JAMOVI_HOME: jamovi-2.3.9.0-win64
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-2.3.18.0-win64.zip
+        JAMOVI_HOME: jamovi-2.3.18.0-win64
         R_VERSION: 4.1.2
         PYTHON: "C:\\Python38-x64\\python"
         CRAN_MIRROR: https://cran.microsoft.com/snapshot/2022-01-01
