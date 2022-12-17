@@ -50,7 +50,7 @@ modules:
       commit: 312790d89c345490d4cd92e28e80dacfe3d17541
     - name: pathj
       url: https://github.com/pathj/pathj.git
-      commit: 2b1a63651e757f7ae3322c20e9763199b22f68e2
+      commit: 03e9bfd92798a8c650c4902cc6b3accc11a86154
     - name: jeva
       url: https://github.com/PeterC-alfaisal/jeva.git
       commit: 865abab61f08e5549e6cc14a2b7874ead742c468
