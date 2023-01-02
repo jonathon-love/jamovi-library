@@ -190,6 +190,10 @@ modules:
     - name: SEDA
       url: https://github.com/Sebastien-Le/SEDA.git
       commit: efaf0f6a85c1ae1212ae27e110a195386f6f0d9c
+    - name: JAR
+      url: https://github.com/EkaitzEsteban87/jamoviJAR.git
+      commit: 7d19c6c4f6c73fa966147b49782e2580d28c7ab1
+      branch: main
     - name: blandr
       url: https://github.com/jonathon-love/blandr.git
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
