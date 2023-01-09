@@ -19,7 +19,7 @@ modules:
       commit: 7c7c73d890c360caf655c2f780bbde90fb4ec231
     - name: jamm
       url: https://github.com/jamovi-amm/jamm.git
-      commit: 7a5deefe934f3a4b7045435b4d24a778f0d5b042
+      commit: 4fdd58af44085c5ea4f836d853c609a9d92fabd0
     - name: jsq
       url: https://github.com/jonathon-love/jsq.git
       commit: 59ea071dc3ad3f75631c8fc8ee4219aa9489e869
@@ -91,7 +91,7 @@ modules:
       commit: 174c167eb5847c9ebfa11ad4df463cf19b981b90
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
-      commit: 942e68727baf4f57f27ac860ffd9de77af87bcba
+      commit: 7a9214d518aee1399ec0f5b19b4804828e70e310
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
