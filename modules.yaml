@@ -191,7 +191,7 @@ modules:
       url: https://github.com/Sebastien-Le/SEDA.git
       commit: efaf0f6a85c1ae1212ae27e110a195386f6f0d9c
     - name: JAR
-      url: https://github.com/EkaitzEsteban87/jamoviJAR.git
+      url: https://github.com/EkaitzEsteban87/CulinaryAnalysis.git
       commit: bd5fc22325c95e2669190a910f82c1d520842d90
       branch: main
     - name: blandr
