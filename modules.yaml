@@ -98,7 +98,7 @@ modules:
       commit: 1def371a803808455d341479a51a829b4348b631
     - name: snowLatent
       url: https://github.com/hyunsooseol/snowLatent.git
-      commit: b99fbfbb0debb0bc2a559dc3a50808441b426fca
+      commit: 8145b2247ef92a0b793546120e7110e2bf737d40
     - name: cNORMj
       url: https://github.com/WLenhard/cNORM_JAMOVI.git
       commit: beedbee28da7c55ab438f3fda3bb9cf3fb2900da
