@@ -53,7 +53,7 @@ modules:
       commit: 03e9bfd92798a8c650c4902cc6b3accc11a86154
     - name: jeva
       url: https://github.com/PeterC-alfaisal/jeva.git
-      commit: 2092e7d3bff71601300cddf9c66e6ac7c1d2ad83
+      commit: d27a6bd7e6d5617db0fa95cc4b3e3e0c14630c23
       branch: main
     - name: walrus
       url: https://github.com/jamovi/walrus.git
