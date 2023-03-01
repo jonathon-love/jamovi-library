@@ -15,8 +15,8 @@ modules:
       commit: 46644fc7b96cf92e55b4613037b89430074cafad
     - name: semlj
       url: https://github.com/semlj/semlj.git
-      branch: Version.1.1.4
-      commit: e7ef8003f2443b5b44322ee14b6369fdaab21051
+      branch: main
+      commit: f77e251fd9c8d4d152367b114c247a7072a23fc8
     - name: jamm
       url: https://github.com/jamovi-amm/jamm.git
       commit: 4fdd58af44085c5ea4f836d853c609a9d92fabd0
@@ -91,11 +91,11 @@ modules:
       commit: c37900c338713746dfda5bcc2137564a4f365f02
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
-      commit: 0d54e23b945d7df7f22429ba6e6a3ff5e588de85
+      commit: 6751e3a12a518618cf0b6733da7b9e3538deef2a
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
-      commit: e04c3dca02b7d5a1269854b76c3a301e382211a1
+      commit: 67a6f55c1e9d148633130ff9722e33f52fc7cd75
     - name: snowLatent
       url: https://github.com/hyunsooseol/snowLatent.git
       commit: 03a79c8ebe97217842d52bf7e86a5730df75dc4f
