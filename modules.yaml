@@ -22,7 +22,7 @@ modules:
       commit: 4fdd58af44085c5ea4f836d853c609a9d92fabd0
     - name: jsq
       url: https://github.com/jonathon-love/jsq.git
-      commit: 59ea071dc3ad3f75631c8fc8ee4219aa9489e869
+      commit: a17cda8dcdbd8e54837b702c51432698dbfbd6f3
       platforms:
         - win64
         - macos
