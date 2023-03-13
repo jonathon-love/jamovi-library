@@ -38,7 +38,7 @@ for:
         only:
           - image: macos
     environment:
-        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-unsigned.zip
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-2.3.22.0-macos.zip
         JAMOVI_HOME: jamovi.app
         R_VERSION: 4.1.2
         PYTHON: "python3"
