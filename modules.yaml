@@ -1,7 +1,7 @@
 
 modules:
     - name: scatr
-      url: https://github.com/raviselker/scatr.git
+      url: https://github.com/jamovi/scatr.git
       commit: 57cd3ac84d7d16479d02a99b7cc9fcc64edb9ca2
     - name: Rj
       url: https://github.com/jonathon-love/Rj.git
