@@ -31,7 +31,7 @@ for:
     #   - npm install
     #   - cd %APPVEYOR_BUILD_FOLDER%
     build_script:
-      - ""
+      - "echo moo"
       #- "%PYTHON% generate.py"
 
   - matrix:
