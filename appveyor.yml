@@ -20,8 +20,8 @@ for:
           secure: KUGIdajS29zs6XPCIpcQtuJSJcFNbuf1NEzgSRJZyjtNo0LEDZQBhB9MxeTrSCiy
     before_build:
       - tzutil /s "GMT Standard Time"
-    # install:
-    #   - "%PYTHON% -m pip install -r requirements.txt"
+    install:
+      - "%PYTHON% -m pip install -r requirements.txt"
     #   - curl -o jamovi.zip %JAMOVI_URL%
     #   - ps: Expand-Archive -Path jamovi.zip -DestinationPath .
     #   - curl -o Rtools.exe https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe
