@@ -16,34 +16,33 @@ for:
         JAMOVI_HOME: jamovi-2.3.24.0-win64
         R_VERSION: 4.1.2
         PYTHON: "C:\\Python38-x64\\python"
-        CRAN_MIRROR: https://cran.microsoft.com/snapshot/2022-01-01
         GITHUB_PAT:
           secure: KUGIdajS29zs6XPCIpcQtuJSJcFNbuf1NEzgSRJZyjtNo0LEDZQBhB9MxeTrSCiy
     before_build:
       - tzutil /s "GMT Standard Time"
-    install:
-      - "%PYTHON% -m pip install -r requirements.txt"
-      - curl -o jamovi.zip %JAMOVI_URL%
-      - ps: Expand-Archive -Path jamovi.zip -DestinationPath .
-      - curl -o Rtools.exe https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe
-      - Rtools.exe /VERYSILENT -NoNewWindow -Wait
-      - git submodule update --init --recursive
-      - cd jamovi-compiler
-      - npm install
-      - cd %APPVEYOR_BUILD_FOLDER%
+    # install:
+    #   - "%PYTHON% -m pip install -r requirements.txt"
+    #   - curl -o jamovi.zip %JAMOVI_URL%
+    #   - ps: Expand-Archive -Path jamovi.zip -DestinationPath .
+    #   - curl -o Rtools.exe https://cran.r-project.org/bin/windows/Rtools/rtools40-x86_64.exe
+    #   - Rtools.exe /VERYSILENT -NoNewWindow -Wait
+    #   - git submodule update --init --recursive
+    #   - cd jamovi-compiler
+    #   - npm install
+    #   - cd %APPVEYOR_BUILD_FOLDER%
     build_script:
-      - "%PYTHON% generate.py"
+      - ""
+      #- "%PYTHON% generate.py"
 
   - matrix:
         only:
           - image: macos
     environment:
-        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-2.3.22.0-macos.zip
+        JAMOVI_URL: https://www.jamovi.org/downloads/jamovi-2.4.0.0-macos.zip
         JAMOVI_HOME: jamovi.app
-        R_VERSION: 4.1.2
+        R_VERSION: 4.1.3
         PYTHON: "python3"
         APPVEYOR_CONSOLE_DISABLE_PTY: true
-        CRAN_MIRROR: https://cran.microsoft.com/snapshot/2022-01-01
         GITHUB_PAT:
           secure: KUGIdajS29zs6XPCIpcQtuJSJcFNbuf1NEzgSRJZyjtNo0LEDZQBhB9MxeTrSCiy
     install:
