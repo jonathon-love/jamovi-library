@@ -82,7 +82,7 @@ modules:
         - macos
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
-      commit: 7f732ccb28031f962045483ddf9ea797ff0b74dc
+      commit: 9265de996ff371a2cdd4145c98f2336b28c275fd
       platforms:
         - win64
         - macos
