@@ -1,8 +1,8 @@
 
 image:
-  - Ubuntu2004
-  - Visual Studio 2017
+#  - Visual Studio 2017
   - macos
+  - Ubuntu2004
 
 matrix:
   fast_finish: true
