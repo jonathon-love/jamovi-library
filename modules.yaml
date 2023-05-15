@@ -16,7 +16,7 @@ modules:
     - name: semlj
       url: https://github.com/semlj/semlj.git
       branch: main
-      commit: fa7fdd3f1ab6e4ff3afe7d95f5adcc1473f93500
+      commit: c84a360dee9964f73411eae564daf36565fe04ff
     - name: jamm
       url: https://github.com/jamovi-amm/jamm.git
       commit: 4fdd58af44085c5ea4f836d853c609a9d92fabd0
@@ -53,7 +53,7 @@ modules:
       commit: 03e9bfd92798a8c650c4902cc6b3accc11a86154
     - name: jeva
       url: https://github.com/PeterC-alfaisal/jeva.git
-      commit: c7f35b4207bc5c23fe0691ae509a4c5d21a5152a
+      commit: 9bdae62e77dfa5a023f4c2b1872d1a3cdafa367d
       branch: main
     - name: walrus
       url: https://github.com/jamovi/walrus.git
@@ -82,7 +82,7 @@ modules:
         - macos
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
-      commit: 7f732ccb28031f962045483ddf9ea797ff0b74dc
+      commit: 9265de996ff371a2cdd4145c98f2336b28c275fd
       platforms:
         - win64
         - macos
@@ -95,7 +95,7 @@ modules:
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
-      commit: 67a6f55c1e9d148633130ff9722e33f52fc7cd75
+      commit: 713b78c078bcf3485b88d93c7d7cc36de9cc3c87
     - name: snowLatent
       url: https://github.com/hyunsooseol/snowLatent.git
       commit: 03a79c8ebe97217842d52bf7e86a5730df75dc4f
@@ -168,7 +168,7 @@ modules:
         - linux
     - name: meddecide
       url: https://github.com/sbalci/meddecide.git
-      commit: 5f57788ae6699727230576973640453c7e72d02d
+      commit: 667997d2da4487e5327ed0381fb477498e140b5d
       platforms:
         - win64
         - macos
