@@ -16,7 +16,7 @@ modules:
     - name: semlj
       url: https://github.com/semlj/semlj.git
       branch: main
-      commit: c84a360dee9964f73411eae564daf36565fe04ff
+      commit: 8a5891de9f8993c192eb3fff401a82a4e51d66ee
     - name: jamm
       url: https://github.com/jamovi-amm/jamm.git
       commit: 4fdd58af44085c5ea4f836d853c609a9d92fabd0
@@ -47,7 +47,7 @@ modules:
       hidden: true
     - name: MAJOR
       url: https://github.com/MAgojam/MAJOR.git
-      commit: 312790d89c345490d4cd92e28e80dacfe3d17541
+      commit: 692a41d472d29bbd908b1bc420e629082ca302a9
     - name: pathj
       url: https://github.com/pathj/pathj.git
       commit: 03e9bfd92798a8c650c4902cc6b3accc11a86154
