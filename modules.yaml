@@ -140,7 +140,7 @@ modules:
     - name: behaviorchange
       url: https://gitlab.com/r-packages/behaviorchange.git
       branch: prod
-      commit: 0e6bbfc5c16df598b9e72182a2b73d4371532f10
+      commit: 3bb6b8550d0550bd2d37b36af61e10cbdf337625
       platforms:
         - win64
         - macos
