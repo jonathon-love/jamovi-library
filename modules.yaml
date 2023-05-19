@@ -57,7 +57,7 @@ modules:
       branch: main
     - name: walrus
       url: https://github.com/jamovi/walrus.git
-      commit: 43125b4a69dcf9e37e8bf20258b4a4d20ceb851a
+      commit: dc816d396c2df32813cfc500923ae96d46944af7
     - name: TOSTER
       url: https://github.com/Lakens/TOSTER.git
       commit: 9bc335f5ef3c59c90e754049e718a2fbce22c60e
