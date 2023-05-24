@@ -61,6 +61,9 @@ modules:
     - name: TOSTER
       url: https://github.com/Lakens/TOSTER.git
       commit: 9bc335f5ef3c59c90e754049e718a2fbce22c60e
+    - name: bmtest
+      url: https://github.com/karchjd/bmtest.git
+      commit: 23168164e071eda0e20f993568b89ec5f46e4b42
     - name: deathwatch
       url: https://github.com/jonathon-love/deathwatch.git
       commit: 687187189e7d0c03224c378e6e1c4294e566631b
