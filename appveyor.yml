@@ -66,7 +66,7 @@ for:
         GITHUB_PAT:
           secure: ACjmkFTJuQP7T/3iT+RbRrGXpbuhHKOCV59xP9Rth+mTr8PSpNxdceBEoPWDjdp9
     install:
-      - sudo apt update
+      - sudo apt update --allow-releaseinfo-change
       - sudo apt install -y flatpak python3 python3-pip gnutls-bin
       - flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
       - bash install-flatpak.sh
