@@ -69,7 +69,7 @@ modules:
       commit: 687187189e7d0c03224c378e6e1c4294e566631b
     - name: jsurvival
       url: https://github.com/sbalci/jsurvival.git
-      commit: 9a8472efe06cfa8b0a6d671e0eed58be22d0c3af
+      commit: 7ac8f2c5228aefda374aea399f4e63d36e5bdaf5
     - name: endoj
       url: https://github.com/ENDOjamovi/ENDOj.git
       commit: 97e8e33a40882c1581ac766a1d729b1b5efdc175
@@ -79,10 +79,11 @@ modules:
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
     - name: jjstatsplot
       url: https://github.com/sbalci/jjstatsplot.git
-      commit: b26c2c37f02b25ff3c3d32391a5cc7f413373a9d
+      commit: 791067774b478b92bd10ab75d57576fd03c4fd3b
       platforms:
         - win64
         - macos
+        - linux
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
       commit: 9265de996ff371a2cdd4145c98f2336b28c275fd
@@ -160,21 +161,23 @@ modules:
       branch: main
     - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathDescriptives.git
-      commit: 783d0cb9a8e507b86ef3e04be99158045c5bcd9f
+      commit: 9785f8925cdf1f52434b57f6b2d636a4e64708d5
       platforms:
         - win64
         - macos
-    - name: ClinicoPathDescriptives
-      url: https://github.com/sbalci/ClinicoPathLinuxDescriptives.git
-      commit: ab7082d3c8d9005ca2c445e8c04f2606a93a156e
+        - linux
+    # - name: ClinicoPathDescriptives
+    #   url: https://github.com/sbalci/ClinicoPathLinuxDescriptives.git
+    #   commit: 97a17c5ec6f030b186a7c271c7dcb7585649e9d6
       platforms:
         - linux
     - name: meddecide
       url: https://github.com/sbalci/meddecide.git
-      commit: 667997d2da4487e5327ed0381fb477498e140b5d
+      commit: c642caaae5430d58f352dddbb1312f69a0faf461
       platforms:
         - win64
         - macos
+        - linux
     - name: psychoPDA
       url: https://github.com/lucasjfriesen/jamoviPsychoPDA.git
       commit: 633ba3a8ecbb84a9c480f04b275894961abe9fff
