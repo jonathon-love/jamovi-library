@@ -16,7 +16,7 @@ modules:
     - name: semlj
       url: https://github.com/semlj/semlj.git
       branch: main
-      commit: 8a5891de9f8993c192eb3fff401a82a4e51d66ee
+      commit: 28d75df331ede28525f56e5e729dcd07896f3d21
     - name: jamm
       url: https://github.com/jamovi-amm/jamm.git
       commit: 40f888f5d1a855ea6369fbc39255632a551b6aba
