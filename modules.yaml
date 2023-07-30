@@ -191,10 +191,10 @@ modules:
         - macos
     - name: MEDA
       url: https://github.com/Sebastien-Le/MEDA.git
-      commit: d0742bff1a8d481710c3909d96c06a9c06420865
+      commit: 190a53f1103ce51fcb7d26542a0d6fb3f914754f
     - name: SEDA
       url: https://github.com/Sebastien-Le/SEDA.git
-      commit: 5b85bc8b33ae924371efc7cdada61c2b7fd3089e
+      commit: 59a0cdb9fc6780ec1cf4985e066fcd23f19d22db
     - name: JAR
       url: https://github.com/EkaitzEsteban87/CulinaryAnalysis.git
       commit: bd5fc22325c95e2669190a910f82c1d520842d90
