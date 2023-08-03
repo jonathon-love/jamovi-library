@@ -35,6 +35,10 @@ modules:
     - name: medmod
       url: https://github.com/raviselker/medmod.git
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
+    - name: jReshape
+      url: https://github.com/mcfanda/jReshape.git
+      commit: df55b3a5849c4316ca2d91d4d843060452ea6523
+      branch: main
     - name: esci
       url: https://github.com/rcalinjageman/esci.git
       commit: 4879ae2db461b365cb61ab251f6ad39b874355d9
