@@ -41,7 +41,7 @@ modules:
       branch: main
     - name: esci
       url: https://github.com/rcalinjageman/esci.git
-      commit: 4879ae2db461b365cb61ab251f6ad39b874355d9
+      commit: 716401872f4d99766e6af0c7cf1548a61accdfb2
     - name: surveymv
       url: https://github.com/raviselker/surveymv.git
       commit: aa36b7c9e6bbec514df4184897760905d85c5966
