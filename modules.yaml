@@ -27,15 +27,6 @@ modules:
     - name: jsq
       url: https://github.com/jonathon-love/jsq.git
       commit: a17cda8dcdbd8e54837b702c51432698dbfbd6f3
-      platforms:
-        - win64
-        - macos
-    - name: jsq
-      url: https://github.com/jonathon-love/jsq.git
-      commit: a17cda8dcdbd8e54837b702c51432698dbfbd6f3
-      platforms:
-        - linux
-      hidden: true
     - name: medmod
       url: https://github.com/raviselker/medmod.git
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
@@ -100,7 +91,7 @@ modules:
         - macos
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
-      commit: c63203b54eeab8751a76ecfe9059909505431f56
+      commit: 554185d058b5bea1a9d0f4e26b528f44e9423fb0
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
       commit: 4b038400ad98a901c44191174e6c606baa4bc546
