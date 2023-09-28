@@ -114,7 +114,7 @@ modules:
     - name: clt
       url: https://github.com/gasper25/clt.git
       branch: main
-      commit: 4b251e25e4d609f8938224b91740ee0143354cf2
+      commit: 3444c67600586c2849f70d721f5955ed7ba478cb
     - name: ztestvis
       url: https://github.com/wjschne/ztest.git
       branch: main
