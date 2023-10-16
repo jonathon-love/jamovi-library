@@ -97,7 +97,7 @@ modules:
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
-      commit: ad48e8f31cf0864939372b2f72b0ace74b0ea381
+      commit: ac16d86ab2e995e9465cc31762ac6cfbea606c1d
     - name: snowLatent
       url: https://github.com/hyunsooseol/snowLatent.git
       commit: b0de1aa7fc628a8db748a7f4a1128ef4daa809f3
