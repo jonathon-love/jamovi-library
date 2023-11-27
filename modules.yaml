@@ -31,7 +31,7 @@ modules:
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
     - name: jReshape
       url: https://github.com/mcfanda/jReshape.git
-      commit: df55b3a5849c4316ca2d91d4d843060452ea6523
+      commit: b9c292f7fd3c6e99dcc2ec4ad09fca38c0d391e7
       branch: main
     - name: esci
       url: https://github.com/rcalinjageman/esci.git
