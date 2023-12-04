@@ -33,6 +33,10 @@ modules:
       url: https://github.com/mcfanda/jReshape.git
       commit: b9c292f7fd3c6e99dcc2ec4ad09fca38c0d391e7
       branch: main
+    - name: jTransform
+      url: https://github.com/sjentsch/jTransform.git
+      commit: 4a6db0caa9036ae187ac2fed9d77a8be88e24fc2
+      branch: main
     - name: esci
       url: https://github.com/rcalinjageman/esci.git
       commit: 7317869df3e20740bd08012a44143afd869e9626
