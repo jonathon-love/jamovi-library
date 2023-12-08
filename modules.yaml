@@ -199,6 +199,10 @@ modules:
     - name: blandr
       url: https://github.com/jonathon-love/blandr.git
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
+    - name: FoodieStats
+      url: https://github.com/EkaitzEsteban87/FoodieStats.git
+      commit: b1712edea9c09bd89de25f7b2f4a40179aee7841
+      branch: main
     - name: jmvbaseR
       url: https://github.com/jamovi/jmvbaseR.git
       commit: dd411c6578e854c981d64bbe91d1a2e1fea1ade8
