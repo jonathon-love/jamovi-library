@@ -15,7 +15,7 @@ modules:
       commit: 46644fc7b96cf92e55b4613037b89430074cafad
     - name: GAMLj3
       url: https://github.com/gamlj/gamlj.git
-      commit: 7fae565fc842b9987194d45dcd61ded7e5930a88
+      commit: 4063a6676351b1e19a8ec0e36c317e1054d6fe6f
     - name: semlj
       url: https://github.com/semlj/semlj.git
       branch: main
@@ -52,7 +52,7 @@ modules:
       commit: 692a41d472d29bbd908b1bc420e629082ca302a9
     - name: pathj
       url: https://github.com/pathj/pathj.git
-      commit: 03e9bfd92798a8c650c4902cc6b3accc11a86154
+      commit: 8a1fcedb313500252907777c500ffb42c0ccd776
     - name: jeva
       url: https://github.com/PeterC-alfaisal/jeva.git
       commit: c7f35b4207bc5c23fe0691ae509a4c5d21a5152a
