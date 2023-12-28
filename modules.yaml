@@ -71,7 +71,7 @@ modules:
       commit: 687187189e7d0c03224c378e6e1c4294e566631b
     - name: jsurvival
       url: https://github.com/sbalci/jsurvival.git
-      commit: 5dc9989cb4ff4b1475e1fd9116bcfa5b59348438
+      commit: 67762d782e5c3e801651eda2b741ef79a3a24d4a
     - name: endoj
       url: https://github.com/ENDOjamovi/ENDOj.git
       commit: 97e8e33a40882c1581ac766a1d729b1b5efdc175
