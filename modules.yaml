@@ -81,7 +81,7 @@ modules:
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
     - name: jjstatsplot
       url: https://github.com/sbalci/jjstatsplot.git
-      commit: 791067774b478b92bd10ab75d57576fd03c4fd3b
+      commit: 7035426b20eef919a98c535ad90d1fc19e9716c8
       platforms:
         - win64
         - macos
