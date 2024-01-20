@@ -71,7 +71,7 @@ modules:
       commit: 687187189e7d0c03224c378e6e1c4294e566631b
     - name: jsurvival
       url: https://github.com/sbalci/jsurvival.git
-      commit: 67762d782e5c3e801651eda2b741ef79a3a24d4a
+      commit: 26be847012437c089c5f68835a36f09e0cfc8d21
     - name: endoj
       url: https://github.com/ENDOjamovi/ENDOj.git
       commit: 97e8e33a40882c1581ac766a1d729b1b5efdc175
@@ -81,7 +81,7 @@ modules:
       commit: 14f4d2f605f104a72608be72ae64d645935431ec
     - name: jjstatsplot
       url: https://github.com/sbalci/jjstatsplot.git
-      commit: 7035426b20eef919a98c535ad90d1fc19e9716c8
+      commit: 2a141d608b2c872cc0424d0c00de82755e1bee30
       platforms:
         - win64
         - macos
@@ -163,7 +163,7 @@ modules:
       branch: main
     - name: ClinicoPathDescriptives
       url: https://github.com/sbalci/ClinicoPathDescriptives.git
-      commit: db8c8d0c85da37c53a77e0a70f54256e8be4d10b
+      commit: 325fa537fdbc6bdddeb88504b9c66e1e55cd9d97
       platforms:
         - win64
         - macos
