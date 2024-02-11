@@ -35,7 +35,7 @@ modules:
       branch: main
     - name: jTransform
       url: https://github.com/sjentsch/jTransform.git
-      commit: f5c5481886b8acf1a6e97e879dccf74e7d33fa1c
+      commit: cc82eba930952fdb46e800df728a8d6d3066b6a2
       branch: main
     - name: esci
       url: https://github.com/rcalinjageman/esci.git
