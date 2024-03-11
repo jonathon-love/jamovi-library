@@ -31,7 +31,7 @@ modules:
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
     - name: jReshape
       url: https://github.com/mcfanda/jReshape.git
-      commit: 5ba7b945f5c6bdb0b959d4b8707ad610be5a3c3e
+      commit: 3347a33480487196d0a4879d1811cb41c0103f21
       branch: main
     - name: jTransform
       url: https://github.com/sjentsch/jTransform.git
