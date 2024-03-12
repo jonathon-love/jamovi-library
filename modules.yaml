@@ -25,7 +25,7 @@ modules:
       commit: c8938bc4e9d878c7a8797d1b1806c51ba774adbf
     - name: jsq
       url: https://github.com/jonathon-love/jsq.git
-      commit: a17cda8dcdbd8e54837b702c51432698dbfbd6f3
+      commit: 4db686e3ab1176009ce68a4c1c87767c23df07e6
     - name: medmod
       url: https://github.com/raviselker/medmod.git
       commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
