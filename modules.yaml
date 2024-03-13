@@ -202,6 +202,15 @@ modules:
       url: https://github.com/EkaitzEsteban87/FoodieStats.git
       commit: 30bdddf20ff53a72239ecf972a1d12646a3337a7
       branch: main
+      platforms:
+        - linux
+        - win64
+    - name: FoodieStats
+      url: https://github.com/EkaitzEsteban87/FoodieStats.git
+      commit: 2bca7882a62ffd6cf5d8edc3a9700de209ba4bbd
+      branch: main
+      platforms:
+        - macos
     - name: jmvbaseR
       url: https://github.com/jamovi/jmvbaseR.git
       commit: dd411c6578e854c981d64bbe91d1a2e1fea1ade8
