@@ -28,7 +28,7 @@ modules:
       commit: 4db686e3ab1176009ce68a4c1c87767c23df07e6
     - name: medmod
       url: https://github.com/jamovi/medmod.git
-      commit: 589984f45e1d8e4ed82bd11d14c79eac72c5ba8d
+      commit: baca0ef28f6983edc34f4b89295f8f40a88126da
     - name: jReshape
       url: https://github.com/mcfanda/jReshape.git
       commit: 3347a33480487196d0a4879d1811cb41c0103f21
