@@ -27,8 +27,8 @@ modules:
       url: https://github.com/jonathon-love/jsq.git
       commit: 4db686e3ab1176009ce68a4c1c87767c23df07e6
     - name: medmod
-      url: https://github.com/raviselker/medmod.git
-      commit: 6f81b0fa009a97cf11c808f7ee561097e7c1310a
+      url: https://github.com/jamovi/medmod.git
+      commit: 589984f45e1d8e4ed82bd11d14c79eac72c5ba8d
     - name: jReshape
       url: https://github.com/mcfanda/jReshape.git
       commit: 3347a33480487196d0a4879d1811cb41c0103f21
