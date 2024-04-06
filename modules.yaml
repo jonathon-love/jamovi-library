@@ -35,7 +35,7 @@ modules:
       branch: main
     - name: jTransform
       url: https://github.com/sjentsch/jTransform.git
-      commit: cc82eba930952fdb46e800df728a8d6d3066b6a2
+      commit: 007c58d37e4cbb5f8b10564e026ef441c65c2818
       branch: main
     - name: esci
       url: https://github.com/rcalinjageman/esci.git
@@ -200,7 +200,7 @@ modules:
       commit: fdf731b9d4907d635a37ec72de74d50d4f906122
     - name: FoodieStats
       url: https://github.com/EkaitzEsteban87/FoodieStats.git
-      commit: f1b2ef2bb8f59bb80cd1e0f105c7809dabe15f32
+      commit: b927c5da60a68e321294a0e4bfe9ca1f26fbfff5
       branch: main
     - name: jmvbaseR
       url: https://github.com/jamovi/jmvbaseR.git
