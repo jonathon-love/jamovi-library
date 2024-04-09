@@ -15,7 +15,7 @@ modules:
       commit: 46644fc7b96cf92e55b4613037b89430074cafad
     - name: GAMLj3
       url: https://github.com/gamlj/gamlj.git
-      commit: c51ce34b199a106e4d66ede7c607ca480303b4fd
+      commit: 41078e3cd0c818c496066761227ccbf67745dba3
     - name: semlj
       url: https://github.com/semlj/semlj.git
       branch: main
