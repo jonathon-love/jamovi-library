@@ -15,7 +15,7 @@ modules:
       commit: 46644fc7b96cf92e55b4613037b89430074cafad
     - name: GAMLj3
       url: https://github.com/gamlj/gamlj.git
-      commit: 41078e3cd0c818c496066761227ccbf67745dba3
+      commit: 265f073004f63126798119c4df4ec34fb3be55a1
     - name: semlj
       url: https://github.com/semlj/semlj.git
       branch: main
@@ -96,7 +96,7 @@ modules:
       commit: 0c10b16b2e0b4c91cb38280121a095f26c7799dd
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
-      commit: 98fcfe21f364ba015dec9e7d29966b81eb3d3904
+      commit: 982f43f81e4175d1f6c3d30456aca7fe62b22d97
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
