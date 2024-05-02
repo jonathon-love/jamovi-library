@@ -55,7 +55,7 @@ modules:
       commit: 8a1fcedb313500252907777c500ffb42c0ccd776
     - name: jeva
       url: https://github.com/PeterC-alfaisal/jeva.git
-      commit: f4582223a6c46c4e72a061996fa3174f75ee9504
+      commit: bf6f17de6b95489794c00ed41225b2f104e38943
       branch: main
     - name: walrus
       url: https://github.com/jamovi/walrus.git
@@ -100,7 +100,7 @@ modules:
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
-      commit: d5c7b7980d5cd09091a672c62e7b177638a55d03
+      commit: 3b2ec7d5bcf2195f7106a457cdfaaff24d948058
     - name: snowLatent
       url: https://github.com/hyunsooseol/snowLatent.git
       commit: 10dab91b665dd85f4aa7c485a8a85f746fec7f9c
@@ -113,6 +113,10 @@ modules:
     - name: distrACTION
       url: https://github.com/methodenlehre/distrACTION.git
       commit: 839f74edc35450d6528649e87de216ae360847c8
+    - name: vijMR
+      url: https://github.com/vjalby/vijMR.git
+      commit: fbae31cdfd8444c719cb73f6db52560dad999848
+      branch: main
     - name: clt
       url: https://github.com/gasper25/clt.git
       branch: main
