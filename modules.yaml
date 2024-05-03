@@ -19,7 +19,7 @@ modules:
     - name: semlj
       url: https://github.com/semlj/semlj.git
       branch: main
-      commit: 064b209730aad08ff8a5a465244c7f5b7c7d7aab
+      commit: a9e6f19cd8f6e096641f36884f50a1fced3bcb07
     - name: jamm
       url: https://github.com/jamovi-amm/jamm.git
       commit: c8938bc4e9d878c7a8797d1b1806c51ba774adbf
@@ -115,7 +115,7 @@ modules:
       commit: 839f74edc35450d6528649e87de216ae360847c8
     - name: vijMR
       url: https://github.com/vjalby/vijMR.git
-      commit: fbae31cdfd8444c719cb73f6db52560dad999848
+      commit: 6d462172daad7574095ba1409352c9cad18814ce
       branch: main
     - name: clt
       url: https://github.com/gasper25/clt.git
