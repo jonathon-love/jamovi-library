@@ -15,7 +15,7 @@ modules:
       commit: 46644fc7b96cf92e55b4613037b89430074cafad
     - name: GAMLj3
       url: https://github.com/gamlj/gamlj.git
-      commit: 0211570de1d5a3fa7eb46628df2e7225f0956150
+      commit: 3a61f7368ca933aee9e5f86f95f8b067e2ce9d23
     - name: semlj
       url: https://github.com/semlj/semlj.git
       branch: main
@@ -87,10 +87,7 @@ modules:
         - macos
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
-      commit: 09384e665c0d62b8616f040b07d2a6c12060620e
-      platforms:
-        - win64
-        - macos
+      commit: bee4715ab4b82a780f98fb89dcfc931adf4ee5dc
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
       commit: 0c10b16b2e0b4c91cb38280121a095f26c7799dd
