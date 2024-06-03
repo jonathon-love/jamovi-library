@@ -87,17 +87,17 @@ modules:
         - macos
     - name: seolmatrix
       url: https://github.com/hyunsooseol/seolmatrix.git
-      commit: bee4715ab4b82a780f98fb89dcfc931adf4ee5dc
+      commit: f1de7ece82a68fba43ca8278b910b7888daa9abf
     - name: snowIRT
       url: https://github.com/hyunsooseol/snowIRT.git
       commit: 0c10b16b2e0b4c91cb38280121a095f26c7799dd
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
-      commit: 982f43f81e4175d1f6c3d30456aca7fe62b22d97
+      commit: 337f653705eb39ff7ecb321cb933f6de9ee74c7a
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
-      commit: f8daa91fa8e9e848032ab842f13b621073986da5
+      commit: e6eb4b36fe8c6e9cadde7d743d729da3412713fa
     - name: snowLatent
       url: https://github.com/hyunsooseol/snowLatent.git
       commit: 10dab91b665dd85f4aa7c485a8a85f746fec7f9c
