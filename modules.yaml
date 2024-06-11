@@ -62,7 +62,7 @@ modules:
       commit: dc816d396c2df32813cfc500923ae96d46944af7
     - name: TOSTER
       url: https://github.com/Lakens/TOSTER.git
-      commit: 9bc335f5ef3c59c90e754049e718a2fbce22c60e
+      commit: d44ef28a533f5f6a42425d9e232255f0c51a99fb
     - name: bmtest
       url: https://github.com/karchjd/bmtest.git
       commit: 0ad2bbe4938f86f9631f0e5d92861e7876e3b040
@@ -93,11 +93,11 @@ modules:
       commit: 0c10b16b2e0b4c91cb38280121a095f26c7799dd
     - name: snowRMM
       url: https://github.com/hyunsooseol/snowRMM.git
-      commit: 337f653705eb39ff7ecb321cb933f6de9ee74c7a
+      commit: 342685c69262d89d52aa439c429b7a62f11127cd
     - name: snowCluster
       url: https://github.com/hyunsooseol/snowCluster.git
       branch: main
-      commit: e6eb4b36fe8c6e9cadde7d743d729da3412713fa
+      commit: 7dff3dae6876e795494f04436e501966eec4138f
     - name: snowLatent
       url: https://github.com/hyunsooseol/snowLatent.git
       commit: 10dab91b665dd85f4aa7c485a8a85f746fec7f9c
